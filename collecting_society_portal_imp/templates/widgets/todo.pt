@@ -1,0 +1,49 @@
+<!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+     Repository: https://github.com/C3S/collecting_society.portal.imp -->
+
+<!-- musician -->
+<div metal:define-macro="musician"
+     class="cs-widget-todo-steps">
+
+    <a tal:condition="True"
+       tal:attributes="href '#'">
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+    </a>
+
+    <a tal:condition="True"
+       tal:attributes="href '#'">
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+    </a>
+
+    <a tal:condition="True"
+       tal:attributes="href '#'">
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+    </a>
+
+</div>
+
+<!-- musicfan -->
+<div metal:define-macro="musicfan"
+     class="cs-widget-todo-steps">
+
+    <a tal:condition="True"
+       tal:attributes="href '#'">
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+    </a>
+
+    <a tal:condition="True"
+       tal:attributes="href '#'">
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+    </a>
+
+    <a tal:condition="True"
+       tal:attributes="href '#'">
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+    </a>
+
+    <a tal:condition="True"
+       tal:attributes="href '#'">
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+    </a>
+
+</div>

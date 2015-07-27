@@ -1,0 +1,13 @@
+<!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+     Repository: https://github.com/C3S/collecting_society.portal.imp -->
+
+<div class="cs-widget-plugins">
+
+    <p i18n:translate="">Plugin herunterladen für</p>
+
+    <a href="https://www.clementine-player.org">
+        <img class="cs-widget-plugin-img img-responsive"
+             tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/musicfan/plugin-clementine.png')" />
+    </a>
+
+</div>

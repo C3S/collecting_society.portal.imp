@@ -1,0 +1,12 @@
+<!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+     Repository: https://github.com/C3S/collecting_society.portal.imp -->
+
+<div class="cs-widget-plugins">
+
+    ${pocket_balance}
+    ${pocket_budget}
+
+    Balance: 
+    <h1>${h.format_currency(pocket_balance)}</h1>
+
+</div>

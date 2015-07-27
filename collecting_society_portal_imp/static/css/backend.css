@@ -1,0 +1,82 @@
+/*******************************************************************************
+
+    For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+    Repository: https://github.com/C3S/collecting_society.portal.imp
+
+*******************************************************************************/
+
+
+/*******************************************************************************
+
+    Extra small devices (phones, less than 768px)
+
+*******************************************************************************/
+
+/* Main */
+
+/* Content Left */
+
+/* Content Middle */
+.cs-artist-img { max-width: 200px }
+
+/* Content Right */
+
+.cs-widget-plugins .cs-widget-plugin-img { width:120px; }
+.cs-widget-todo-steps .cs-widget-todo-step-img { float:left; width:60px; margin:0 5px 5px 0; }
+
+
+/*******************************************************************************
+
+   Small devices (tablets, 768px and up)
+
+*******************************************************************************/
+
+@media (min-width: 768px) {
+
+    /* Main */
+
+    /* Content Left */
+
+    /* Content Middle */
+
+    /* Content Right */
+
+}
+
+
+/*******************************************************************************
+
+   Medium devices (desktops, 992px and up)
+
+*******************************************************************************/
+
+@media (min-width: 992px) {
+
+    /* Main */
+
+    /* Content Left */
+
+    /* Content Middle */
+
+    /* Content Right */
+    
+}
+
+
+/*******************************************************************************
+
+   Large devices (large desktops, 1200px and up)
+
+*******************************************************************************/
+
+@media (min-width: 1200px) {
+
+    /* Main */
+
+    /* Content Left */
+
+    /* Content Middle */
+
+    /* Content Right */
+    
+}

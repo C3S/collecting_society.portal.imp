@@ -1,0 +1,45 @@
+<!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+     Repository: https://github.com/C3S/collecting_society.portal.imp -->
+
+<tal:block metal:use-macro="backend">
+
+    <!-- content left -->
+    <tal:block metal:fill-slot="content-left"></tal:block>
+
+    <!-- content middle -->
+    <tal:block metal:fill-slot="content-middle">
+
+        <div class="cs-musicfan-artists">
+            <table class="table table-hover">
+
+                <tr>
+                    <td colspan="5">
+                        <h1 i18n:translate="">Utilisations</h1>
+                    </td>
+                </tr>
+
+                <tr>
+                    <!--th i18n:translate="">Client</th-->
+                    <th i18n:translate="">Artist</th>
+                    <th i18n:translate="">Creation</th>
+                    <th i18n:translate="">Release</th>
+                    <th i18n:translate="">Time</th>
+                </tr>
+
+                <tr tal:repeat="utilisation utilisations">
+                    <!--td>${utilisation.client.uuid}</td-->
+                    <td>${utilisation.artist}</td>
+                    <td>${utilisation.title}</td>
+                    <td>${utilisation.release}</td>
+                    <td>${utilisation.time_submitted}</td>
+                </tr>
+
+            </table>
+        </div>
+
+    </tal:block>
+
+    <!-- content right -->
+    <tal:block metal:fill-slot="content-right"></tal:block>
+
+</tal:block>

@@ -1,0 +1,142 @@
+<!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+     Repository: https://github.com/C3S/collecting_society.portal.imp -->
+
+<tal:block metal:use-macro="base">
+
+    <!-- content -->
+    <tal:block metal:fill-slot="content">
+
+        <div class="starter-template">
+          <div class="container">
+            <div class="row">
+          <a href="$ off {request.static_path('collecting_society_portal_imp:docs/')}">Documentation</a>
+          *
+          <a href="$ off {request.route_url('whoami')}">who am I?</a>
+          *
+          <a href="$ off {request.route_url('request_api_key')}">Request an API-Key</a>
+        </div>
+
+            <div class="row">
+          <h2>Web Users (from Tryton)</h2>
+          <table class="table">
+            <tr >
+              <th>id</th>
+              <th>email</th>
+              <th>API key</th>
+            </tr>
+            <tr tal:repeat="w web_users"
+            tal:attributes="id python: 'w_{}'.format(w.id)">
+              <td id="${id}">${w.id}</td>
+              <td>${w.email}</td>
+              <td>$ off {w.api_key}</td>
+            </tr>
+          </table>
+            </div>
+            <div class="row">
+          <h2>Clients (from Tryton)</h2>
+          <table class="table">
+            <tr >
+              <th>id</th>
+              <th>web user</th>
+              <th>uuid</th>
+              <th>active?</th>
+              <th>Player name</th>
+              <th>Player version</th>
+              <th>Plugin name</th>
+              <th>Plugin vendor</th>
+              <th>Plugin version</th>
+            </tr>
+            <tr tal:repeat="c clients"
+            tal:attributes="id python: 'c_{}'.format(c.id)">
+              <td id="${id}">${c.id}</td>
+              <td>${c.web_user}</td>
+              <td>${c.uuid}</td>
+              <td>${c.active}</td>
+              <td>${c.player_name}</td>
+              <td>${c.player_version}</td>
+              <td>${c.plugin_name}</td>
+              <td>${c.plugin_vendor}</td>
+              <td>${c.plugin_version}</td>
+              <!--! td>${dir(c)}</td -->
+            </tr>
+          </table>
+            </div>
+
+            <div class="row">
+          <h2>Artists (from Tryton)</h2>
+          <table class="table">
+            <tr >
+              <th>id</th>
+              <th>name</th>
+              <th>code</th>
+              <th>party</th>
+              <th>solo artists</th>
+              <th>group artists</th>
+              <th>access parties</th>
+              <th>invitation token</th>
+              <th>description</th>
+              <th>group</th>
+              <th>active</th>
+            </tr>
+            <tr tal:repeat="a artists"
+            tal:attributes="id python: 'a_{}'.format(a.id)">
+              <td id="${id}">${a.id}</td>
+              <td>${a.name}</td>
+              <td>${a.code}</td>
+              <td>${a.party}</td>
+              <td>${a.solo_artists}</td>
+              <td>${a.group_artists}</td>
+              <td>${a.access_parties}</td>
+              <td>${a.invitation_token}</td>
+              <td tal:condition="a.description">${unicode(a.description)[0:50]}...</td>
+              <td tal:condition="a.description is None">n/a</td>
+              <td>$ off {a.picture_data}</td>
+              <td>${a.group}</td>
+            </tr>
+          </table>
+            </div>
+
+
+            <div class="row">
+          <h2>Utilisations IMP (from Tryton)</h2>
+
+          <table class="table">
+            <tr >
+              <th>id</th>
+              <th>client</th>
+              <th>time played</th>
+              <th>time submitted</th>
+              <th>fingerprint (len())</th>
+              <th>fingerprinting algorithm</th>
+              <th>fingerprinting version</th>
+              <th>title</th>
+              <th>artist</th>
+              <th>release</th>
+              <th>track_number</th>
+              <th>duration</th>
+            </tr>
+            <tr tal:repeat="u utilisations"
+            tal:attributes="id python: 'u_{}'.format(u.id)">
+              <td id="${id}">${u.id}</td>
+              <td>${u.client}</td>
+              <td>${u.time_played}</td>
+              <td>${u.time_submitted}</td>
+              <td>${len(str(u.fingerprint))}</td>
+              <td>${u.fingerprinting_algorithm}</td>
+              <td>${u.fingerprinting_version}</td>
+              <td>${u.title}</td>
+              <td>${u.artist}</td>
+              <td>${u.release}</td>
+              <td>${u.track_number}</td>
+              <td>${u.duration}</td>
+            </tr>
+          </table>
+        </div>
+
+
+          </div>
+        </div>
+
+    </tal:block>
+
+</tal:block>

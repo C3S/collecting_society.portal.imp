@@ -1,0 +1,45 @@
+<!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+     Repository: https://github.com/C3S/collecting_society.portal.imp -->
+
+<tal:block metal:use-macro="backend">
+
+    <!-- content left -->
+    <tal:block metal:fill-slot="content-left"></tal:block>
+
+    <!-- content middle -->
+    <tal:block metal:fill-slot="content-middle">
+
+        <h1>Clients</h1>
+
+        <div class="cs-web-user-clients" tal:define="group 'web-user-clients'">
+            <tal:block tal:repeat="player_name player_names">
+
+                <tal:block metal:use-macro="m['panel-collapsed']"
+                           tal:define="heading player_name;
+                                       id repeat.player_name.number;
+                                       visible True">
+                    <tal:block metal:fill-slot="body">
+                        <table class="table table-hover">
+                            <tal:block tal:repeat="client clients">
+                                <tr tal:condition="client.player_name == player_name">
+                                    <td>${client.uuid}</td>
+                                    <td class="text-right">
+                                        <a href="${request.resource_path(context, 'delete', client.uuid)}">
+                                            <span class="glyphicon glyphicon-remove text-danger"></span>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tal:block>
+                        </table>
+                    </tal:block>
+                </tal:block>
+
+            </tal:block>
+        </div>
+
+    </tal:block>
+
+    <!-- content right -->
+    <tal:block metal:fill-slot="content-right"></tal:block>
+
+</tal:block>
