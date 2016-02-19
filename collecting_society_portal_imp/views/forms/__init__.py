@@ -2,3 +2,4 @@
 # Repository: https://github.com/C3S/collecting_society.portal.imp
 
 from .add_client import AddClient
+from .register_mailinglist import RegisterMailinglist

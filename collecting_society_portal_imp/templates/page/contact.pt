@@ -1,0 +1,13 @@
+<!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+     Repository: https://github.com/C3S/collecting_society -->
+
+<h1 i18n:translate="">Contact</h1>
+
+<p>
+    <span i18n:translate="">If you have any questions regarding</span>
+    <span class="cs-red">adore</span>,
+    <span i18n:translate="">please e-mail us at</span><br />
+    ( info )at( c3s.cc ).<br />
+    <span i18n:translate="">For business inquiries, please contact</span><br />
+    ( thomas )dot( mielke )at( c3s.cc ).
+</p>

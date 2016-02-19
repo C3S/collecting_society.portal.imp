@@ -17,6 +17,7 @@ with open(os.path.join(here, 'CHANGELOG.rst')) as f:
 requires = [
     '%s_collecting_society_portal' % (PREFIX),
     '%s_collecting_society_portal_creative' % (PREFIX),
+    'requests',
 ]
 
 setup(

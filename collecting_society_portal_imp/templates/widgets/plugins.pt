@@ -7,7 +7,7 @@
 
     <a href="https://www.clementine-player.org">
         <img class="cs-widget-plugin-img img-responsive"
-             tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/musicfan/plugin-clementine.png')" />
+             tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/logo-clementine.png')" />
     </a>
 
 </div>

@@ -1,0 +1,106 @@
+/*******************************************************************************
+
+    For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+    Repository: https://github.com/C3S/collecting_society.portal
+
+*******************************************************************************/
+
+
+/*******************************************************************************
+
+    Extra small devices (phones, less than 768px)
+
+*******************************************************************************/
+
+/* Main */
+
+html { height:100%; }
+body { height:100%; padding-top:50px; background-color:#fff; }
+
+h1, .h1 { padding-top:30px; padding-bottom:25px; color:#fc2a00; border-top:#fff 1px solid; text-transform:lowercase; }
+h2, .h2 {}
+h3, .h3 {}
+h4, .h4 {}
+h5, .h5 { color:#fc2a00; }
+h6, .h6 {}
+
+button[type="submit"] { background-color: #bab9b9; border-color: gray; }
+button[type="submit"]:hover { background-color: #cac9c9; border-color: gray; }
+
+.cs-fan { color:#36b8ea; }
+.cs-musician { color:#0cc4b8; }
+.cs-mainheader { border:none; }
+
+/* Content Left */
+
+/* Content Middle */
+
+.cs-content-middle { background-color:#f1f1f1; }
+
+.cs-menue-page .container > div { background-color:#f1f1f1; }
+
+/* Content Right */
+
+.cs-content-right { margin-top:30px; }
+.cs-content-right span { background-color:#fff; }
+
+
+/*******************************************************************************
+
+   Small devices (tablets, 768px and up)
+
+*******************************************************************************/
+
+@media (min-width: 768px) {
+
+    /* Main */
+
+    /* Content Left */
+
+    /* Content Middle */
+
+    /* Content Right */
+
+}
+
+
+/*******************************************************************************
+
+   Medium devices (desktops, 992px and up)
+
+*******************************************************************************/
+
+@media (min-width: 992px) {
+
+    /* Main */
+
+    body { background: #fff url('../img/image-listener.png') no-repeat right bottom fixed; }
+
+    /* Content Left */
+
+    /* Content Middle */
+
+    /* Content Right */
+    
+    .cs-content-right { margin-top:0; }
+    
+}
+
+
+/*******************************************************************************
+
+   Large devices (large desktops, 1200px and up)
+
+*******************************************************************************/
+
+@media (min-width: 1200px) {
+
+    /* Main */
+
+    /* Content Left */
+
+    /* Content Middle */
+
+    /* Content Right */
+    
+}
