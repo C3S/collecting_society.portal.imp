@@ -225,14 +225,6 @@ class MusicfanResource(ResourceBase):
                     UtilisationIMPMusicfanResource(self.request), 'list'
                 )
             },
-            {
-                'name': _(u'My Account'),
-                'icon': self.request.static_path(
-                    'collecting_society_portal_imp:'
-                    'static/img/element-icon.png'
-                ),
-                'url': None
-            },
         ]
         # widgets content-right
         reg['widgets']['content-right'] = [
