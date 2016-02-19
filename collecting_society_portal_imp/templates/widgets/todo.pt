@@ -7,17 +7,17 @@
 
     <a tal:condition="True"
        tal:attributes="href '#'">
-        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/element-step.png')" class="cs-widget-todo-step-img" />
     </a>
 
     <a tal:condition="True"
        tal:attributes="href '#'">
-        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/element-step.png')" class="cs-widget-todo-step-img" />
     </a>
 
     <a tal:condition="True"
        tal:attributes="href '#'">
-        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/element-step.png')" class="cs-widget-todo-step-img" />
     </a>
 
 </div>
@@ -28,22 +28,22 @@
 
     <a tal:condition="True"
        tal:attributes="href '#'">
-        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/element-step.png')" class="cs-widget-todo-step-img" />
     </a>
 
     <a tal:condition="True"
        tal:attributes="href '#'">
-        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/element-step.png')" class="cs-widget-todo-step-img" />
     </a>
 
     <a tal:condition="True"
        tal:attributes="href '#'">
-        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/element-step.png')" class="cs-widget-todo-step-img" />
     </a>
 
     <a tal:condition="True"
        tal:attributes="href '#'">
-        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/step.png')" class="cs-widget-todo-step-img" />
+        <img tal:attributes="src request.static_path('collecting_society_portal_imp:static/img/element-step.png')" class="cs-widget-todo-step-img" />
     </a>
 
 </div>

@@ -1,0 +1,14 @@
+<!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+     Repository: https://github.com/C3S/collecting_society -->
+
+<tal:block metal:use-macro="frontend">
+
+
+    <tal:block metal:fill-slot="content-middle">
+
+        <div tal:content="structure LoginWebuser"/>
+
+    </tal:block>
+
+
+</tal:block>

@@ -3,11 +3,25 @@
 
 import logging
 
+from collections import (
+    Mapping,
+    defaultdict,
+    OrderedDict
+)
+
+from pyramid.security import (
+    Allow,
+    Authenticated,
+    Everyone,
+    ALL_PERMISSIONS
+)
+
 from collecting_society_portal.services import _
 from collecting_society_portal.resources import (
     ResourceBase,
     FrontendResource,
-    BackendResource
+    BackendResource,
+    NewsResource
 )
 from collecting_society_portal.views.widgets import news_widget
 from collecting_society_portal_creative.resources import (
@@ -27,17 +41,58 @@ log = logging.getLogger(__name__)
 
 def include_web_resources(config):
 
-    # Frontend
-    FrontendResource.add_child(MusicfanDummyResource)
-    MusicfanDummyResource.add_child(ClientResource)
-
-    # Backend
-    BackendResource.add_child(MusicfanResource)
-    BackendResource.add_child(MusicianResource)
+    # Registry
+    @FrontendResource.extend_registry
+    def extend_frontend(self):
+        reg = self.dict()
+        # css
+        reg['static']['css'] = [
+            self.request.static_path(
+                'collecting_society_portal_imp:static/css/frontend.css'
+            )
+        ]
+        # logo
+        reg['static']['logo'] = self.request.static_path(
+            'collecting_society_portal_imp:static/img/logo-adore.png'
+        )
+        # menue page
+        reg['menues']['page'] = [
+            {
+                'name': _(u'overview'),
+                'page': 'overview'
+            },
+            {
+                'name': _(u'details'),
+                'page': 'details'
+            },
+            {
+                'name': _(u'about c3s'),
+                'page': 'aboutc3s'
+            },
+            {
+                'name': _(u'contact'),
+                'page': 'contact'
+            },
+            {
+                'name': _(u'imprint'),
+                'page': 'imprint'
+            }
+        ]
+        return reg
 
     @BackendResource.extend_registry
-    def register_roles(self):
+    def extend_backend(self):
         reg = self.dict()
+        # css
+        reg['static']['css'] = [
+            self.request.static_path(
+                'collecting_society_portal_imp:static/css/backend.css'
+            )
+        ]
+        # logo
+        reg['static']['logo'] = self.request.static_path(
+            'collecting_society_portal_imp:static/img/logo-adore.png'
+        )
         # menue roles
         reg['menues']['roles'] = [
             {
@@ -55,13 +110,70 @@ def include_web_resources(config):
                 )
             }
         ]
+        # menue portal
+        reg['menues']['portal'] = [
+            {
+                'name': _(u'News'),
+                'url': self.request.resource_path(
+                    BackendResource(self.request), 'news'
+                )
+            },
+            {
+                'name': _(u'Contact'),
+                'url': self.request.resource_path(
+                    BackendResource(self.request), 'contact'
+                )
+            },
+            {
+                'name': _(u'Imprint'),
+                'url': self.request.resource_path(
+                    BackendResource(self.request), 'imprint'
+                )
+            },
+            {
+                'name': _(u'Logout'),
+                'url': self.request.resource_path(
+                    BackendResource(self.request), 'logout'
+                )
+            }
+        ]
+        # news
+        reg['content']['news'] = OrderedDict()
+        reg['content']['news']['1'] = {
+            'header': _(u'News Article 1'),
+            'template': (
+                'collecting_society_portal_imp:'
+                'templates/content/news/news1'
+            )
+        }
+        reg['content']['news']['2'] = {
+            'header': _(u'News Article 2'),
+            'template': (
+                'collecting_society_portal_imp:'
+                'templates/content/news/news2'
+            )
+        }
+        reg['content']['news']['3'] = {
+            'header': _(u'News Article 3'),
+            'template': (
+                'collecting_society_portal_imp:'
+                'templates/content/news/news3'
+            )
+        }
+        # widgets content-right
+        reg['widgets']['content-right'] = [
+            news_widget
+        ]
         return reg
 
-    # Musicfan
+    # Children
+    FrontendResource.add_child(MusicfanDummyResource)
+    MusicfanDummyResource.add_child(ClientResource)
+    BackendResource.add_child(MusicfanResource)
+    BackendResource.add_child(MusicianResource)
+    BackendResource.add_child(NewsResource)
     MusicfanResource.add_child(ClientResource)
     MusicfanResource.add_child(UtilisationIMPMusicfanResource)
-
-    # Musician
     MusicianResource.add_child(ArtistResource)
     ArtistResource.add_child(AddArtistResource)
     MusicianResource.add_child(CreationResource)
@@ -77,15 +189,9 @@ class MusicfanResource(ResourceBase):
     @property
     def __registry__(self):
         reg = self.dict()
-        # css
-        reg['static']['css'] = [
-            self.request.static_path(
-                'collecting_society_portal_imp:static/css/backend.css'
-            )
-        ]
         # logo
         reg['static']['logo'] = self.request.static_path(
-            'collecting_society_portal_imp:static/img/musicfan/logo.png'
+            'collecting_society_portal_imp:static/img/logo-musicfan.png'
         )
         # menue main
         reg['menues']['main'] = [
@@ -93,7 +199,7 @@ class MusicfanResource(ResourceBase):
                 'name': _(u'Dashboard'),
                 'icon': self.request.static_path(
                     'collecting_society_portal_imp:'
-                    'static/img/icon.png'
+                    'static/img/element-icon.png'
                 ),
                 'url': self.request.resource_path(
                     MusicfanResource(self.request), 'dashboard'
@@ -103,7 +209,7 @@ class MusicfanResource(ResourceBase):
                 'name': _(u'Clients'),
                 'icon': self.request.static_path(
                     'collecting_society_portal_imp:'
-                    'static/img/icon.png'
+                    'static/img/element-icon.png'
                 ),
                 'url': self.request.resource_path(
                     ClientResource(self.request), 'list'
@@ -113,7 +219,7 @@ class MusicfanResource(ResourceBase):
                 'name': _(u'Music Utilization'),
                 'icon': self.request.static_path(
                     'collecting_society_portal_imp:'
-                    'static/img/icon.png'
+                    'static/img/element-icon.png'
                 ),
                 'url': self.request.resource_path(
                     UtilisationIMPMusicfanResource(self.request), 'list'
@@ -123,34 +229,10 @@ class MusicfanResource(ResourceBase):
                 'name': _(u'My Account'),
                 'icon': self.request.static_path(
                     'collecting_society_portal_imp:'
-                    'static/img/icon.png'
+                    'static/img/element-icon.png'
                 ),
                 'url': None
             },
-            {
-                'name': _(u'News'),
-                'icon': self.request.static_path(
-                    'collecting_society_portal_imp:'
-                    'static/img/icon.png'
-                ),
-                'url': None
-            },
-            {
-                'name': _(u'Contact'),
-                'icon': self.request.static_path(
-                    'collecting_society_portal_imp:'
-                    'static/img/icon.png'
-                ),
-                'url': None
-            },
-            {
-                'name': _(u'Settings'),
-                'icon': self.request.static_path(
-                    'collecting_society_portal_imp:'
-                    'static/img/icon.png'
-                ),
-                'url': None
-            }
         ]
         # widgets content-right
         reg['widgets']['content-right'] = [
@@ -171,15 +253,9 @@ class MusicianResource(ResourceBase):
     @property
     def __registry__(self):
         reg = self.dict()
-        # css
-        reg['static']['css'] = [
-            self.request.static_path(
-                'collecting_society_portal_imp:static/css/backend.css'
-            )
-        ]
         # logo
         reg['static']['logo'] = self.request.static_path(
-            'collecting_society_portal_imp:static/img/musicfan/logo.png'
+            'collecting_society_portal_imp:static/img/logo-musician.png'
         )
         # menue main
         reg['menues']['main'] = [
@@ -190,7 +266,7 @@ class MusicianResource(ResourceBase):
                 ),
                 'icon': self.request.static_path(
                     'collecting_society_portal_imp:'
-                    'static/img/icon.png'
+                    'static/img/element-icon.png'
                 )
             },
             {
@@ -200,7 +276,7 @@ class MusicianResource(ResourceBase):
                 ),
                 'icon': self.request.static_path(
                     'collecting_society_portal_imp:'
-                    'static/img/icon.png'
+                    'static/img/element-icon.png'
                 )
             },
             {
@@ -210,7 +286,7 @@ class MusicianResource(ResourceBase):
                 ),
                 'icon': self.request.static_path(
                     'collecting_society_portal_imp:'
-                    'static/img/icon.png'
+                    'static/img/element-icon.png'
                 )
             },
             {
@@ -220,41 +296,9 @@ class MusicianResource(ResourceBase):
                 ),
                 'icon': self.request.static_path(
                     'collecting_society_portal_imp:'
-                    'static/img/icon.png'
+                    'static/img/element-icon.png'
                 )
             },
-            {
-                'name': _(u'My Account'),
-                'url': None,
-                'icon': self.request.static_path(
-                    'collecting_society_portal_imp:'
-                    'static/img/icon.png'
-                )
-            },
-            {
-                'name': _(u'News'),
-                'url': None,
-                'icon': self.request.static_path(
-                    'collecting_society_portal_imp:'
-                    'static/img/icon.png'
-                )
-            },
-            {
-                'name': _(u'Contact'),
-                'url': None,
-                'icon': self.request.static_path(
-                    'collecting_society_portal_imp:'
-                    'static/img/icon.png'
-                )
-            },
-            {
-                'name': _(u'Settings'),
-                'url': None,
-                'icon': self.request.static_path(
-                    'collecting_society_portal_imp:'
-                    'static/img/icon.png'
-                )
-            }
         ]
         # widgets content-right
         reg['widgets']['content-right'] = [

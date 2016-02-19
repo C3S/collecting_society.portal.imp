@@ -23,11 +23,11 @@ from ..models import (
 log = logging.getLogger(__name__)
 
 
-@view_defaults(permission=NO_PERMISSION_REQUIRED)
+@view_defaults(
+    context='collecting_society_portal.resources.DebugResource',
+    permission=NO_PERMISSION_REQUIRED,
+    environment="development")
 class WebDebugViews(ViewBase):
-
-    def development(context, request):
-        return request.registry.settings['env'] == 'development'
 
     def objects_view(self):
         web_users_all = WebUser.search_all()
@@ -44,7 +44,6 @@ class WebDebugViews(ViewBase):
     @view_config(
         name='objects',
         renderer='../templates/debug/objects.pt',
-        decorator=Tdb.transaction(),
-        custom_predicates=[development])
+        decorator=Tdb.transaction())
     def objects(self):
         return self.objects_view()

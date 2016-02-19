@@ -1,0 +1,73 @@
+<!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+     Repository: https://github.com/C3S/collecting_society -->
+
+<tal:block metal:use-macro="frontend">
+
+    <!-- top -->
+    <tal:block metal:fill-slot="top">
+
+        <!-- menue page -->
+        <tal:block metal:use-macro="m['navbar']"
+                   tal:define="name 'page'; style 'navbar-fixed-top'">
+            <tal:block metal:fill-slot="links">
+                <a tal:attributes="href '#'+menu.name">${menu.name}</a>
+            </tal:block>
+        </tal:block>
+
+    </tal:block>
+
+    <!-- content left -->
+    <tal:block metal:fill-slot="content-left"></tal:block>
+
+    <!-- content middle -->
+    <tal:block metal:fill-slot="content-middle">
+
+        <!-- form register -->
+        <!--<div tal:replace="structure RegisterWebuser"></div>-->
+
+        <!-- mailinglist registration -->
+        <h1 class="cs-txt-center cs-mainheader">
+            <span i18n:translate="">Welcome to adore</span>!<br />
+            <span i18n:translate="">Join our community</span>.
+        </h1>
+        <div tal:replace="structure RegisterMailinglist"></div>
+
+        <!-- static content -->
+        <div class="row">
+            <div class="cs-widget col-sm-6">
+                <img src="${request.static_path('collecting_society_portal_imp:static/img/logo-musicfan.png')}" class="img-responsive cs-img-center" width="120" />
+                <h3 class="cs-fan cs-txt-center">FAN</h3>
+                <span i18n:translate="">Donate even smallest amounts to all the artists you like – you decide how much to spend per month. It is your sign telling them how awesome their music is – show it everytime you are dancing, headbanging and grooving to their tunes. If you are a musician yourself, or you are remixing tunes – why not take the opportunity to join</span> <span class="cs-red">adore</span> <span i18n:translate="">as an artist as well?</span> 
+            </div>
+            <div class="cs-widget col-sm-6">
+                <img src="${request.static_path('collecting_society_portal_imp:static/img/logo-musician.png')}" class="img-responsive cs-img-center" width="120" />
+                <h3 class="cs-musician cs-txt-center">ARTIST</h3>
+                <span class="cs-red">adore</span> <span i18n:translate="">keeps track of your songs across all players we are developing plugins for. You can literally play any street in the world without traveling there. Sharing music worldwide, receiving donations from everywhere. Don‘t miss out on revenues, however small they may be in the start. We are pretty sure you prefer some cents over one thumbs up, don‘t ya?</span>
+            </div>
+        </div>
+
+        <!-- static sites -->
+        <tal:block tal:repeat="menu context.registry['menues']['page']|None">
+            <a name="${menu.name}"></a>
+            <div metal:use-macro="load: ${menu.page}.pt"></div>
+        </tal:block>
+
+    </tal:block>
+
+    <!-- content right -->
+    <tal:block metal:fill-slot="content-right">
+
+        <!-- form login -->
+        <!--<div tal:replace="structure LoginWebuser"></div>-->
+
+        <!-- content -->
+        <div class="cs-widget hidden-xs">
+            <span class="cs-red">adore </span><span i18n:translate="">is based on a prototype project co-funded by EFRE funds within the Operational Programme "Target2: Regional Competitiveness and Employment" of the Federal State of North-Rhine Westphalia (NRW) and crowdfunding campaigns of the C3S community.</span>
+            <br /><br />
+            <img src="${request.static_path('collecting_society_portal_imp:static/img/logo-eu.jpg')}" class="img-responsive" />
+        </div>
+        
+
+    </tal:block>
+
+</tal:block>

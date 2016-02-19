@@ -20,16 +20,12 @@ from ..debug import WebDebugViews
 log = logging.getLogger(__name__)
 
 
-@view_defaults(permission=NO_PERMISSION_REQUIRED)
+@view_defaults(permission=NO_PERMISSION_REQUIRED, environment="development")
 class ApiDebugViews(WebDebugViews):
-
-    def development(context, request):
-        return request.registry.settings['env'] == 'development'
 
     @view_config(
         route_name="whoami",
-        renderer="json",
-        custom_predicates=[development])
+        renderer="json")
     def whoami(self):
         """
         View returning the authenticated user's credentials.
@@ -41,7 +37,6 @@ class ApiDebugViews(WebDebugViews):
     @view_config(
         route_name='objects',
         renderer='../../templates/debug/objects.pt',
-        decorator=Tdb.transaction(),
-        custom_predicates=[development])
+        decorator=Tdb.transaction())
     def objects(self):
         return self.objects_view()
