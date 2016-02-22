@@ -17,7 +17,15 @@
     </tal:block>
 
     <!-- content left -->
-    <tal:block metal:fill-slot="content-left"></tal:block>
+    <tal:block metal:fill-slot="content-left">
+
+        <div class="cs-widget hidden-xs hidden-sm">
+            <h4 class="cs-red" i18n:translate="">adore Plugin*</h4>
+            <span i18n:translate="">The beta version will be based on the</span> <b i18n:translate="">Clementine music player</b>. <span i18n:translate="">As soon as the news for the beta launch is out, please</span> <a href="https://www.clementine-player.org/en/" i18n:translate="">download it here</a>. <span i18n:translate="">Instructions on where to get and how to seamlessly install the</span> <span class="cs-red">adore</span> <span i18n:translate="">plugin will be available right here on this site</span>.
+        </div>
+        <img src="${request.static_path('collecting_society_portal_imp:static/img/logo-clementine.png')}" class="img-responsive hidden-xs hidden-sm"></img>
+
+    </tal:block>
 
     <!-- content middle -->
     <tal:block metal:fill-slot="content-middle">
