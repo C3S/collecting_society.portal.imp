@@ -48,4 +48,18 @@
 <p>
     <span i18n:translate="">So relax, get yourself a beer, and receive donations on top of music you sold and even for music you didn‘t sell. Plus, it‘s ads-free. Being</span>
     <span class="cs-red">adored</span> <span i18n:translate="">is fun, isn‘t it?</span>
+ </p>
+
+<p>
+   <span i18n:translate="">If you are interested how the whole process looks like from a technical perspective, watch this screencast:</span>
+</p>
+
+<p>
+   <div align="center" class="embed-responsive embed-responsive-16by9">
+        <video width="95%" preload controls class="embed-responsive-item">
+            <source src="https://archive.c3s.cc/aktuell/video/adore_screencast_en_02_HD_YT.webm" />
+            <source src="https://archive.c3s.cc/aktuell/video/adore_screencast_en_02_HD_YT.mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </div>
 </p>
