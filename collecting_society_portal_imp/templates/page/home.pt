@@ -70,7 +70,7 @@
 
         <!-- content -->
         <div class="cs-widget hidden-xs">
-            <span i18n:translate="" class="cs-red">adore </span><span i18n:translate="">is based on a prototype project co-funded by EFRE funds within the Operational Programme "Target2: Regional Competitiveness and Employment" of the Federal State of North-Rhine Westphalia (NRW) and crowdfunding campaigns of the C3S community.</span>
+            <span i18n:translate="" class="cs-red">adore</span> <span i18n:translate="">is based on a prototype project co-funded by EFRE funds within the Operational Programme "Target2: Regional Competitiveness and Employment" of the Federal State of North-Rhine Westphalia (NRW) and crowdfunding campaigns of the C3S community.</span>
             <br /><br />
             <img src="${request.static_path('collecting_society_portal_imp:static/img/logo-eu.jpg')}" class="img-responsive" />
         </div>

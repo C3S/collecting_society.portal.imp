@@ -16,7 +16,6 @@ from pyramid.security import (
     ALL_PERMISSIONS
 )
 
-from collecting_society_portal.services import _
 from collecting_society_portal.resources import (
     ResourceBase,
     FrontendResource,
@@ -29,6 +28,8 @@ from collecting_society_portal_creative.resources import (
     AddArtistResource,
     CreationResource
 )
+
+from .services import _
 from .views.widgets import (
     plugins_widget,
     todo_musician_widget,
@@ -58,23 +59,23 @@ def include_web_resources(config):
         # menue page
         reg['menues']['page'] = [
             {
-                'name': _(u'overview'),
+                'name': 'overview',
                 'page': 'overview'
             },
             {
-                'name': _(u'details'),
+                'name': 'details',
                 'page': 'details'
             },
             {
-                'name': _(u'about c3s'),
+                'name': 'about c3s',
                 'page': 'aboutc3s'
             },
             {
-                'name': _(u'contact'),
+                'name': 'contact',
                 'page': 'contact'
             },
             {
-                'name': _(u'imprint'),
+                'name': 'imprint',
                 'page': 'imprint'
             }
         ]

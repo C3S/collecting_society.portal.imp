@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2016-03-12 13:50+0100\n"
+"POT-Creation-Date: 2016-03-12 16:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,10 +37,12 @@ msgid "imprint"
 msgstr ""
 
 #: ./collecting_society_portal_imp/resources.py:99
+#: ./collecting_society_portal_imp/templates/musicfan/dashboard.pt:12
 msgid "Musicfan"
 msgstr ""
 
 #: ./collecting_society_portal_imp/resources.py:106
+#: ./collecting_society_portal_imp/templates/musician/dashboard.pt:12
 msgid "Musician"
 msgstr ""
 
@@ -49,10 +51,12 @@ msgid "News"
 msgstr ""
 
 #: ./collecting_society_portal_imp/resources.py:122
+#: ./collecting_society_portal_imp/templates/page/contact.pt:6
 msgid "Contact"
 msgstr ""
 
 #: ./collecting_society_portal_imp/resources.py:128
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:6
 msgid "Imprint"
 msgstr ""
 
@@ -78,6 +82,7 @@ msgid "Dashboard"
 msgstr ""
 
 #: ./collecting_society_portal_imp/resources.py:209
+#: ./collecting_society_portal_imp/templates/client/list.pt:12
 msgid "Clients"
 msgstr ""
 
@@ -109,19 +114,19 @@ msgstr ""
 msgid "Client deleted: "
 msgstr ""
 
-#: ./collecting_society_portal_imp/views/forms/register_mailinglist.py:54
+#: ./collecting_society_portal_imp/views/forms/register_mailinglist.py:55
 msgid "Registration successfull"
 msgstr ""
 
-#: ./collecting_society_portal_imp/views/forms/register_mailinglist.py:80
+#: ./collecting_society_portal_imp/views/forms/register_mailinglist.py:81
 msgid "Your e-mail"
 msgstr ""
 
-#: ./collecting_society_portal_imp/views/forms/register_mailinglist.py:81
+#: ./collecting_society_portal_imp/views/forms/register_mailinglist.py:82
 msgid "Receive a notification when the beta version launches"
 msgstr ""
 
-#: ./collecting_society_portal_imp/views/forms/register_mailinglist.py:91
+#: ./collecting_society_portal_imp/views/forms/register_mailinglist.py:92
 #: ./collecting_society_portal_imp/views/forms/add_client.py:149
 msgid "Submit"
 msgstr ""
@@ -147,6 +152,7 @@ msgid "Uuid"
 msgstr ""
 
 #: ./collecting_society_portal_imp/views/forms/add_client.py:133
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:25
 msgid "Email"
 msgstr ""
 
@@ -165,4 +171,625 @@ msgstr ""
 
 #: ./collecting_society_portal_imp/views/widgets/pocket.py:19
 msgid "Pocket"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:23
+msgid "adore Plugin*"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:24
+msgid "The beta version will be based on the"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:24
+msgid "Clementine music player"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:24
+msgid "As soon as the news for the beta launch is out, please"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:24
+msgid "download it here"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:24
+msgid "Instructions on where to get and how to seamlessly install the"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:24
+msgid "plugin will be available right here on this site"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:38
+msgid "Welcome to adore"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:39
+msgid "Join our community"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:47
+msgid "FAN"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:48
+msgid ""
+"Donate even smallest amounts to all the artists you like – you decide how "
+"much to spend per month. It is your sign telling them how awesome their music"
+" is – show it everytime you are dancing, headbanging and grooving to their "
+"tunes. If you are a musician yourself, or you are remixing tunes – why not "
+"take the opportunity to join"
+msgstr ""
+
+#. 
+#. Used in sentence: "register yourself and install the <dynamic element>
+#. plugin into your music player"
+#: ./collecting_society_portal_imp/templates/page/home.pt:48
+#: ./collecting_society_portal_imp/templates/page/home.pt:53
+#: ./collecting_society_portal_imp/templates/page/home.pt:73
+#: ./collecting_society_portal_imp/templates/page/contact.pt:10
+#: ./collecting_society_portal_imp/templates/page/overview.pt:25
+#: ./collecting_society_portal_imp/templates/page/overview.pt:33
+#: ./collecting_society_portal_imp/templates/page/overview.pt:46
+#: ./collecting_society_portal_imp/templates/page/details.pt:13
+#: ./collecting_society_portal_imp/templates/page/details.pt:34
+#: ./collecting_society_portal_imp/templates/page/details.pt:47
+msgid "adore"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:48
+msgid "as an artist as well?"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:52
+msgid "ARTIST"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:53
+msgid ""
+"keeps track of your songs across all players we are developing plugins for. "
+"You can literally play any street in the world without traveling there. "
+"Sharing music worldwide, receiving donations from everywhere. Don‘t miss out "
+"on revenues, however small they may be in the start. We are pretty sure you "
+"prefer some cents over one thumbs up, don‘t ya?"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/home.pt:73
+msgid ""
+"is based on a prototype project co-funded by EFRE funds within the "
+"Operational Programme \"Target2: Regional Competitiveness and Employment\" of"
+" the Federal State of North-Rhine Westphalia (NRW) and crowdfunding campaigns"
+" of the C3S community."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/contact.pt:9
+#: ./collecting_society_portal_imp/templates/page/overview.pt:46
+msgid "If you have any questions regarding"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/contact.pt:11
+msgid "please e-mail us at"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/contact.pt:13
+#: ./collecting_society_portal_imp/templates/page/overview.pt:48
+msgid "For business inquiries, please contact"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:6
+msgid "Overview"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:9
+msgid "Anyone listens to music."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:10
+msgid "Anyone loves to listen to music."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:11
+msgid "We listen to music wherever we can."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:14
+msgid "We adore music."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:16
+msgid ""
+"It is the way how we listen to music that differs, and it is the way how we "
+"acquire it that differs. We are paying for streams, we are buying downloads, "
+"CDs, vinyl and even more odd formats. We are cheering to live music and we "
+"are enjoying music at friends. There‘s all sorts of media we are listening "
+"to."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:20
+msgid ""
+"But it is one thing we share – we all want to support the artists in making "
+"their music. The music market by and large made us lose the fan-to-artist "
+"connection. DIY brought it back. DIY means social media. Technology helps "
+"core fans to keep track of artists they adore. Now let casual supporters come"
+" close and share music the same way – throw your cents in the artist‘s bin!"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:25
+msgid "honors the craftsmanship of creativity"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:28
+msgid ""
+"We aim at starting a beta test till end of 2016. Join our newsletter at the "
+"top of this page to be the first to know. You will be updated on any feature "
+"news and more."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:33
+msgid "Or follow"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:33
+msgid "using alternative channels:"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:37
+msgid "wiki"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:38
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:35
+msgid "facebook"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:39
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:36
+msgid "twitter"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:40
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:37
+msgid "google+"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:41
+msgid "ello"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:42
+msgid "diaspora"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/overview.pt:46
+msgid "please e-mail us to"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:6
+msgid "Details"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:8
+msgid ""
+"We aim at starting a beta test till end of 2016. Here's a preview to how it "
+"works:"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:10
+msgid "Start adoring"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:13
+msgid ""
+"register yourself and install the <dynamic element> plugin into your music "
+"player"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:14
+msgid "set up your account and decide how much to donate per month"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:15
+msgid "listen to your music"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:16
+msgid ""
+"by the end of each month your budget is equally donated to anyone you "
+"listened to"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:19
+msgid "What happens with my money?"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:22
+msgid "set your monthly budget as low as 2.50 €"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:23
+msgid ""
+"90 % of your monthly budget goes to the artist, 10 % cover administrational "
+"costs"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:25
+msgid "the administrational fee supports the"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:28
+msgid "C3S SCE is a non-profit organization supporting artists"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:31
+msgid "Become adored!"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:34
+msgid "get yourself a creator‘s account at"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:35
+msgid "pay zero"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:36
+msgid "receive anonymized statistics per track such as revenue"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:38
+msgid "regional distribution of"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:38
+msgid "adorers"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:38
+msgid "late beta"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:39
+msgid "number of plays"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:40
+msgid "time range related analysis"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:41
+msgid "and more"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:46
+msgid "Artists who receive donations but have no account at"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:47
+msgid "are notified"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:51
+msgid ""
+"So relax, get yourself a beer, and receive donations on top of music you sold"
+" and even for music you didn‘t sell. Plus, it‘s ads-free. Being"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:52
+msgid "adored"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:52
+msgid "is fun, isn‘t it?"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:56
+msgid ""
+"If you are interested how the whole process looks like from a technical "
+"perspective, watch this screencast:"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:64
+msgid "Your browser does not support the video tag"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:6
+msgid "About C3S"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:8
+msgid ""
+"C3S SCE has been founded in September 2013. Taking the legal form of a "
+"European Cooperative (SCE), it is intended to launch as the first true "
+"European collecting society for music."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:12
+msgid ""
+"C3S SCE will spawn a new, international and mainly online based market. It is"
+" an opportunity for musicians who will not or cannot join traditional "
+"collecting societies to monetize their work without having to give up their "
+"way of licensing. C3S SCE is about to provide standard all rights reserved "
+"licences as well as as Creative Commons licences, including all six "
+"variations."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:16
+msgid ""
+"Giving way to a regionally less constrained model, C3S in the long run is to "
+"offer subsidiaries in all European countries providing one streamlined "
+"licensing model."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:20
+msgid ""
+"Full Membership is limited to creators only to avoid distortion of discussion"
+" topics by objectives of legal successors and publishers. Enabling the "
+"introduction to music and musical production, and promoting new ways in "
+"creation of cultural works, C3S will be open to all kinds of creators: "
+"professionals, semi-professionals and the new breed of all creative users."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:25
+msgid ""
+"Additionally, cultural projects and educational programmes addressing "
+"copyright issues will be supported."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:26
+msgid "Read the"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:26
+msgid "Cultural Commons Manifesto"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:27
+msgid "Get to know our"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:27
+msgid "Statutes"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:28
+msgid "Become a member"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:28
+msgid "here"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:31
+msgid "Follow us on your favorite channels:"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:34
+msgid "website"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/aboutc3s.pt:38
+msgid "youtube"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:10
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:36
+msgid ""
+"Cultural Commons Collecting Society SCE mit beschränkter Haftung (C3S SCE)"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:13
+msgid "Representatives"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:19
+msgid "Heyestr. 194"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:20
+msgid "40625 Düsseldorf"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:21
+msgid "Germany"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:26
+msgid "OpenPGP Public Key"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:31
+msgid "Phone"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:32
+msgid "Fax"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:37
+msgid ""
+"registered in Dusseldorf, Germany, reg.no.: GnR 506 (Genossenschaftsregister "
+"Düsseldorf)"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:38
+msgid "registered office"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:38
+msgid "Heyestr. 194, 40625 Düsseldorf"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:39
+msgid "Minimum share capital"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:40
+msgid ""
+"European Cooperative Society founded in Hamburg on Sept. 25, 2013 under the "
+"law of the Federal Republic of Germany."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:43
+msgid "Statute"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:48
+msgid ""
+"Zuständige Aufsichtsbehörde bei Aufnahme der Tätigkeit als "
+"Verwertungsgesellschaft wird sein"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:49
+msgid "DPMA Deutsches Patent- und Markenamt"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:50
+msgid "Zweibrückenstraße 12"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:51
+msgid "80331 München"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:56
+msgid "Haftungsausschluss"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:58
+msgid "1. Inhalt des Onlineangebotes"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:60
+msgid ""
+"Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, "
+"Vollständigkeit oder Qualität der bereitgestellten Informationen. "
+"Haftungsansprüche gegen den Autor, welche sich auf Schäden materieller oder "
+"ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der "
+"dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und "
+"unvollständiger Informationen verursacht wurden, sind grundsätzlich "
+"ausgeschlossen, sofern seitens des Autors kein nachweislich vorsätzliches "
+"oder grob fahrlässiges Verschulden vorliegt."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:64
+msgid ""
+"Alle Angebote sind freibleibend und unverbindlich. Der Autor behält es sich "
+"ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte "
+"Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung "
+"zeitweise oder endgültig einzustellen."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:68
+msgid "2. Verweise und Links"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:70
+msgid ""
+"Bei direkten oder indirekten Verweisen auf fremde Webseiten (Hyperlinks), die"
+" außerhalb des Verantwortungsbereiches des Autors liegen, würde eine "
+"Haftungsverpflichtung ausschließlich in dem Fall in Kraft treten, in dem der "
+"Autor von den Inhalten Kenntnis hat und es ihm technisch möglich und zumutbar"
+" wäre, die Nutzung im Falle rechtswidriger Inhalte zu verhindern."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:74
+msgid ""
+"Der Autor erklärt hiermit ausdrücklich, dass zum Zeitpunkt der Linksetzung "
+"keine illegalen Inhalte auf den zu verlinkenden Seiten erkennbar waren. Auf "
+"die aktuelle und zukünftige Gestaltung, die Inhalte oder die Urheberschaft "
+"der verlinkten/verknüpften Seiten hat der Autor keinerlei Einfluss. Deshalb "
+"distanziert er sich hiermit ausdrücklich von allen Inhalten aller verlinkten "
+"/verknüpften Seiten, die nach der Linksetzung verändert wurden. Diese "
+"Feststellung gilt für alle innerhalb des eigenen Internetangebotes gesetzten "
+"Links und Verweise sowie für Fremdeinträge in vom Autor eingerichteten "
+"Gästebüchern, Diskussionsforen, Linkverzeichnissen, Mailinglisten und in "
+"allen anderen Formen von Datenbanken, auf deren Inhalt externe "
+"Schreibzugriffe möglich sind. Für illegale, fehlerhafte oder unvollständige "
+"Inhalte und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung "
+"solcherart dargebotener Informationen entstehen, haftet allein der Anbieter "
+"der Seite, auf welche verwiesen wurde, nicht derjenige, der über Links auf "
+"die jeweilige Veröffentlichung lediglich verweist."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:78
+msgid "3. Urheber- und Kennzeichenrecht"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:80
+msgid ""
+"Der Autor ist bestrebt, in allen Publikationen die Urheberrechte der "
+"verwendeten Grafiken, Tondokumente, Videosequenzen und Texte zu beachten, von"
+" ihm selbst erstellte Grafiken, Tondokumente, Videosequenzen und Texte zu "
+"nutzen oder auf lizenzfreie Grafiken, Tondokumente, Videosequenzen und Texte "
+"zurückzugreifen."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:84
+msgid ""
+"Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte "
+"geschützten Marken- und Warenzeichen unterliegen uneingeschränkt den "
+"Bestimmungen des jeweils gültigen Kennzeichenrechts und den Besitzrechten der"
+" jeweiligen eingetragenen Eigentümer. Allein aufgrund der bloßen Nennung ist "
+"nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte Dritter "
+"geschützt sind!"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:88
+msgid ""
+"Eine Vervielfältigung oder Verwendung der vom Autor selbst erstellten "
+"Grafiken, Tondokumenten, Videosequenzen und Texten in anderen elektronischen "
+"oder gedruckten Publikationen ist gestattet. Die Änderung und "
+"Veröffentlichung der oben genannten Dateien ist ohne ausdrückliche Zustimmung"
+" des Autors nicht gestattet."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:92
+msgid "4. Rechtswirksamkeit dieses Haftungsausschlusses"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/imprint.pt:94
+msgid ""
+"Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, "
+"von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne "
+"Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht mehr oder "
+"nicht vollständig entsprechen sollten, bleiben die übrigen Teile des "
+"Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt."
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/utilisation_imp/musicfan_list.pt:17
+#: ./collecting_society_portal_imp/templates/utilisation_imp/musician_list.pt:17
+msgid "Utilisations"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/utilisation_imp/musicfan_list.pt:23
+#: ./collecting_society_portal_imp/templates/utilisation_imp/musician_list.pt:23
+msgid "Artist"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/utilisation_imp/musicfan_list.pt:24
+#: ./collecting_society_portal_imp/templates/utilisation_imp/musician_list.pt:24
+msgid "Creation"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/utilisation_imp/musicfan_list.pt:25
+#: ./collecting_society_portal_imp/templates/utilisation_imp/musician_list.pt:25
+msgid "Release"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/utilisation_imp/musicfan_list.pt:26
+#: ./collecting_society_portal_imp/templates/utilisation_imp/musician_list.pt:26
+msgid "Time"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/widgets/plugins.pt:6
+msgid "Download plugin for"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/widgets/pocket.pt:6
+msgid "Balance"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/widgets/pocket.pt:9
+msgid "Budget"
 msgstr ""
