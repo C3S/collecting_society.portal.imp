@@ -10,7 +10,7 @@
     <h5 i18n:translate="">Start adoring</h5>
 
     <ul>
-        <li i18n:translate="">register yourself and install the <span i18n:translate="" class="cs-red">adore</span> plugin into your music player</li>
+        <li><span i18n:translate="">register yourself and install the</span> <span i18n:translate="" class="cs-red">adore</span> <span i18n:translate="">plugin into your music player</span></li>
         <li i18n:translate="">set up your account and decide how much to donate per month</li>
         <li i18n:translate="">listen to your music</li>
         <li i18n:translate="">by the end of each month your budget is equally donated to anyone you listened to</li>

@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2016-03-12 16:44+0100\n"
-"PO-Revision-Date: 2016-03-12 19:53+0100\n"
+"POT-Creation-Date: 2016-03-12 22:17+0100\n"
+"PO-Revision-Date: 2016-03-12 22:21+0100\n"
 "Last-Translator: Thomas Mielke <thomas.mielke@c3s.cc>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -17,89 +17,89 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: collecting_society_portal_imp/resources.py:61
+#: collecting_society_portal_imp/resources.py:62
 msgid "overview"
 msgstr "Übersicht"
 
-#: collecting_society_portal_imp/resources.py:65
+#: collecting_society_portal_imp/resources.py:66
 msgid "details"
 msgstr "Details"
 
-#: collecting_society_portal_imp/resources.py:69
+#: collecting_society_portal_imp/resources.py:70
 msgid "about c3s"
 msgstr "Über C3S"
 
-#: collecting_society_portal_imp/resources.py:73
+#: collecting_society_portal_imp/resources.py:74
 msgid "contact"
 msgstr "Kontakt"
 
-#: collecting_society_portal_imp/resources.py:77
+#: collecting_society_portal_imp/resources.py:78
 msgid "imprint"
 msgstr "Impressum"
 
-#: collecting_society_portal_imp/resources.py:99
+#: collecting_society_portal_imp/resources.py:100
 #: collecting_society_portal_imp/templates/musicfan/dashboard.pt:12
 msgid "Musicfan"
 msgstr "Musikfan"
 
-#: collecting_society_portal_imp/resources.py:106
+#: collecting_society_portal_imp/resources.py:107
 #: collecting_society_portal_imp/templates/musician/dashboard.pt:12
 msgid "Musician"
 msgstr "Musiker"
 
-#: collecting_society_portal_imp/resources.py:116
+#: collecting_society_portal_imp/resources.py:117
 msgid "News"
 msgstr "News"
 
-#: collecting_society_portal_imp/resources.py:122
+#: collecting_society_portal_imp/resources.py:123
 #: collecting_society_portal_imp/templates/page/contact.pt:6
 msgid "Contact"
 msgstr "Kontakt"
 
-#: collecting_society_portal_imp/resources.py:128
+#: collecting_society_portal_imp/resources.py:129
 #: collecting_society_portal_imp/templates/page/imprint.pt:6
 msgid "Imprint"
 msgstr "Impressum"
 
-#: collecting_society_portal_imp/resources.py:134
+#: collecting_society_portal_imp/resources.py:135
 msgid "Logout"
 msgstr "Logout"
 
-#: collecting_society_portal_imp/resources.py:143
+#: collecting_society_portal_imp/resources.py:144
 msgid "News Article 1"
 msgstr "Nwes Artikel 1"
 
-#: collecting_society_portal_imp/resources.py:150
+#: collecting_society_portal_imp/resources.py:151
 msgid "News Article 2"
 msgstr "Nwes Artikel 2"
 
-#: collecting_society_portal_imp/resources.py:157
+#: collecting_society_portal_imp/resources.py:158
 msgid "News Article 3"
 msgstr "Nwes Artikel 3"
 
-#: collecting_society_portal_imp/resources.py:199
-#: collecting_society_portal_imp/resources.py:255
+#: collecting_society_portal_imp/resources.py:200
+#: collecting_society_portal_imp/resources.py:256
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: collecting_society_portal_imp/resources.py:209
+#: collecting_society_portal_imp/resources.py:210
 #: collecting_society_portal_imp/templates/client/list.pt:12
 msgid "Clients"
 msgstr "Clients"
 
-#: collecting_society_portal_imp/resources.py:219
+#: collecting_society_portal_imp/resources.py:220
 msgid "Music Utilization"
 msgstr "Musiknutzung"
 
-#: collecting_society_portal_imp/resources.py:265
+#: collecting_society_portal_imp/resources.py:266
 msgid "My Artists"
 msgstr "Meine Künstler"
 
-#: collecting_society_portal_imp/resources.py:275
+#: collecting_society_portal_imp/resources.py:276
 msgid "My Creations"
 msgstr "Meine Werke"
 
-#: collecting_society_portal_imp/resources.py:285
+#: collecting_society_portal_imp/resources.py:286
 msgid "Music Utilisation"
 msgstr "Musiknutzung"
 
@@ -184,7 +184,7 @@ msgstr "Die Beta-Version wird auf dem "
 
 #: collecting_society_portal_imp/templates/page/home.pt:24
 msgid "Clementine music player"
-msgstr "Clementinge Musik-Player basieren"
+msgstr "Clementine Musik-Player basieren"
 
 #: collecting_society_portal_imp/templates/page/home.pt:24
 msgid "As soon as the news for the beta launch is out, please"
@@ -224,13 +224,10 @@ msgid ""
 msgstr ""
 "Sogar kleinste Beträge können an alle Künstler, die Du magst, gespendet "
 "werden – Du bestimmst dabei wieviel Du insgesamt pro Monat spendest. Es ist "
-"einfach ein auch ein Zeichen dafür wie sehr Du ihre Musik schätzt -- und Du "
-"zeigst es jedesmal wenn Du iher Musik genießt. Wenn Du selbst Musiker bist "
+"einfach auch ein Zeichen dafür wie sehr Du ihre Musik schätzt -- und Du "
+"zeigst es jedesmal wenn Du ihre Musik genießt. Wenn Du selbst Musiker bist "
 "oder Musik remixt: Warum nicht die Gelegenheit nutzen Dich bei"
 
-#.
-#. Used in sentence: "register yourself and install the <dynamic element>
-#. plugin into your music player"
 #: collecting_society_portal_imp/templates/page/home.pt:48
 #: collecting_society_portal_imp/templates/page/home.pt:53
 #: collecting_society_portal_imp/templates/page/home.pt:73
@@ -260,12 +257,12 @@ msgid ""
 "on revenues, however small they may be in the start. We are pretty sure you "
 "prefer some cents over one thumbs up, don‘t ya?"
 msgstr ""
-"Übersicht behalten über alle Deine Lieder über alle Musik-Player für die wir "
-"Plugins entwickeln. Du kannst buchstäblich überall in der Welt als "
-"Straßenkünstler auftreten, ohne reisen zu müssen: Deine Musik wird weltweit "
-"gehört und Du erhälst Spenden von überall. Warum auch Einahmen verzichten – "
-"wie klein sie anfangs auch sein mögen. Wir glauben, dass Du ein paar Cents "
-"einem 'Daumen hoch' bevorzugen würdes, oder?"
+"erlaubt es übersicht zu bealten über alle Deine Lieder und über alle Musik-"
+"Player für die wir Plugins entwickeln. Du kannst buchstäblich überall in der "
+"Welt als Straßenkünstler auftreten, ohne reisen zu müssen: Deine Musik wird "
+"weltweit gehört und Du erhältst Spenden von überall. Warum auf Einahmen "
+"verzichten – wie klein sie anfangs auch sein mögen. Wir glauben, dass Du ein "
+"paar Cents einem 'Daumen hoch' bevorzugen würdest, oder?"
 
 #: collecting_society_portal_imp/templates/page/home.pt:73
 msgid ""
@@ -275,7 +272,7 @@ msgid ""
 "campaigns of the C3S community."
 msgstr ""
 "basiert auf einem Pilotprojekt, das vom EFRE Fonds im Rahmen eines Programms "
-"zur regionale Wettbewerbsfähigkeit und Beschäftigung des Landes Nordrhein-"
+"zur regionalen Wettbewerbsfähigkeit und Beschäftigung des Landes Nordrhein-"
 "Westphalen und einer Crowdfunding-Kampagne finanziert wurde."
 
 #: collecting_society_portal_imp/templates/page/contact.pt:9
@@ -285,7 +282,7 @@ msgstr "Wenn Du eine Frage hast bezüglich"
 
 #: collecting_society_portal_imp/templates/page/contact.pt:11
 msgid "please e-mail us at"
-msgstr "hast, schicke bitte eine Mail an"
+msgstr "schicke bitte eine Mail an"
 
 #: collecting_society_portal_imp/templates/page/contact.pt:13
 #: collecting_society_portal_imp/templates/page/overview.pt:48
@@ -334,7 +331,7 @@ msgid ""
 "come close and share music the same way – throw your cents in the artist‘s "
 "bin!"
 msgstr ""
-"Aber es gibt eins, das uns eint: Wir wollen alle die Künstler bei der "
+"Aber es gibt eins, das uns eint: Wir alle wollen die Künstler bei der "
 "Schöpfung ihrer Musik unterstützen. Der Musikmarkt hat uns im Großen und "
 "Ganzen den Kontakt zwischen Fan und Künstler verlieren lassen. DIY hat ihn "
 "uns zurückgegeben. DIY bedeutet soziale Medien. Technik hilft Fans ihre "
@@ -353,7 +350,7 @@ msgid ""
 msgstr ""
 "Wir planen den Beta-Test bis Ende 2016 zu starten. Trage Dich ein für "
 "unseren Newsletter oben auf dieser Seite, um eine_r der Ersten zu sein, die "
-"davon erfahren und danach auf dem Laufenden zu bleiben."
+"davon erfahren und auch danach auf dem Laufenden zu bleiben."
 
 #: collecting_society_portal_imp/templates/page/overview.pt:33
 msgid "Or follow"
@@ -392,7 +389,7 @@ msgstr "Diaspora"
 
 #: collecting_society_portal_imp/templates/page/overview.pt:46
 msgid "please e-mail us to"
-msgstr "Bitte schicke eine E-Mail an"
+msgstr "schicke bitte eine E-Mail an"
 
 #: collecting_society_portal_imp/templates/page/details.pt:6
 msgid "Details"
@@ -411,12 +408,12 @@ msgid "Start adoring"
 msgstr "Starte mit adore"
 
 #: collecting_society_portal_imp/templates/page/details.pt:13
-msgid ""
-"register yourself and install the <dynamic element> plugin into your music "
-"player"
-msgstr ""
-"Registriere Dich und installiere das <dynamic element> plugin in Deinem "
-"Musik-Player"
+msgid "register yourself and install the"
+msgstr "Registriere Dich und installiere den"
+
+#: collecting_society_portal_imp/templates/page/details.pt:13
+msgid "plugin into your music player"
+msgstr "Plugin in Deinen Musik-Player"
 
 #: collecting_society_portal_imp/templates/page/details.pt:14
 msgid "set up your account and decide how much to donate per month"
@@ -442,7 +439,7 @@ msgstr "Was passiert mit meinem Geld?"
 
 #: collecting_society_portal_imp/templates/page/details.pt:22
 msgid "set your monthly budget as low as 2.50 €"
-msgstr "Setze Dein monatliches Budget bis zu einer Untergrenze von 2,50€ fest"
+msgstr "Setze Dein monatliches Budget ab einer Untergrenze von 2,50€ fest"
 
 #: collecting_society_portal_imp/templates/page/details.pt:23
 msgid ""
@@ -454,7 +451,7 @@ msgstr ""
 
 #: collecting_society_portal_imp/templates/page/details.pt:25
 msgid "the administrational fee supports the"
-msgstr "Die Gebühr unterstützt auch die"
+msgstr "Die Gebühr hilft auch der"
 
 #: collecting_society_portal_imp/templates/page/details.pt:28
 msgid "C3S SCE is a non-profit organization supporting artists"
@@ -470,13 +467,11 @@ msgstr "Lege Dir einen Kreativen-Account an bei"
 
 #: collecting_society_portal_imp/templates/page/details.pt:35
 msgid "pay zero"
-msgstr "nichts bezahlen"
+msgstr "der Account ist 100%ig kostenlos"
 
 #: collecting_society_portal_imp/templates/page/details.pt:36
 msgid "receive anonymized statistics per track such as revenue"
-msgstr ""
-"erhalte anonymisierte Statistiken pro Musikstück, z.B. die jeweiligen "
-"Einnahmen"
+msgstr "erhalte anonymisierte Statistiken pro Musikstück, wie z.B."
 
 #: collecting_society_portal_imp/templates/page/details.pt:38
 msgid "regional distribution of"
@@ -504,12 +499,11 @@ msgstr "und mehr"
 
 #: collecting_society_portal_imp/templates/page/details.pt:46
 msgid "Artists who receive donations but have no account at"
-msgstr ""
-"Künstler, die Spenden bekommen haben abder keinen Nutzerzugang haben bei"
+msgstr "Künstler, die Spenden bekamen aber keinen Nutzerzugang bei"
 
 #: collecting_society_portal_imp/templates/page/details.pt:47
 msgid "are notified"
-msgstr "werden benachrichtigt"
+msgstr "besitzen werden benachrichtigt"
 
 #: collecting_society_portal_imp/templates/page/details.pt:51
 msgid ""
@@ -526,7 +520,7 @@ msgstr "'Adored'"
 
 #: collecting_society_portal_imp/templates/page/details.pt:52
 msgid "is fun, isn‘t it?"
-msgstr "zu werden macht spaß, oder?"
+msgstr "zu werden macht Spaß, oder?"
 
 #: collecting_society_portal_imp/templates/page/details.pt:56
 msgid ""
@@ -588,10 +582,10 @@ msgid ""
 "professionals, semi-professionals and the new breed of all creative users."
 msgstr ""
 "Die Vollmitgliedschaft ist beschränkt auf Musikschaffende, um die "
-"Beeinflussung durch Erben und  zu vermeiden. Mit der Förderung musikalischer "
-"Produktion und neuen Formen der Promotion kultureller Werke wird die C3S "
-"offen sein für alle Arten von Kreativen: Profis, Semiprofessionelle und "
-"einen neuen Schlag von allseits kreativen Nutzern."
+"Beeinflussung durch Erben und Verlage zu vermeiden. Mit der Förderung "
+"musikalischer Produktion und neuen Formen der Promotion kultureller Werke "
+"wird die C3S offen sein für alle Arten von Kreativen: Profis, "
+"Semiprofessionelle und einen neuen Schlag von allseits kreativen Nutzern."
 
 #: collecting_society_portal_imp/templates/page/aboutc3s.pt:25
 msgid ""
@@ -611,7 +605,7 @@ msgstr "Cultural Commons Manifest"
 
 #: collecting_society_portal_imp/templates/page/aboutc3s.pt:27
 msgid "Get to know our"
-msgstr "Lese unsere"
+msgstr "Schaue in unsere"
 
 #: collecting_society_portal_imp/templates/page/aboutc3s.pt:27
 msgid "Statutes"
@@ -918,3 +912,10 @@ msgstr "Saldo"
 #: collecting_society_portal_imp/templates/widgets/pocket.pt:9
 msgid "Budget"
 msgstr "Budget"
+
+#~ msgid ""
+#~ "register yourself and install the <dynamic element> plugin into your "
+#~ "music player"
+#~ msgstr ""
+#~ "Registriere Dich und installiere das <dynamic element> plugin in Deinem "
+#~ "Musik-Player"

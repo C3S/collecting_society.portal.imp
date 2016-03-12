@@ -59,23 +59,23 @@ def include_web_resources(config):
         # menue page
         reg['menues']['page'] = [
             {
-                'name': 'overview',
+                'name': _(u'overview'),
                 'page': 'overview'
             },
             {
-                'name': 'details',
+                'name': _(u'details'),
                 'page': 'details'
             },
             {
-                'name': 'about c3s',
+                'name': _(u'about c3s'),
                 'page': 'aboutc3s'
             },
             {
-                'name': 'contact',
+                'name': _(u'contact'),
                 'page': 'contact'
             },
             {
-                'name': 'imprint',
+                'name': _(u'imprint'),
                 'page': 'imprint'
             }
         ]

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2016-03-12 16:44+0100\n"
+"POT-Creation-Date: 2016-03-12 22:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,89 +16,89 @@ msgstr ""
 "Language: \n"
 "Generated-By: Lingua 4.8.1\n"
 
-#: ./collecting_society_portal_imp/resources.py:61
+#: ./collecting_society_portal_imp/resources.py:62
 msgid "overview"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:65
+#: ./collecting_society_portal_imp/resources.py:66
 msgid "details"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:69
+#: ./collecting_society_portal_imp/resources.py:70
 msgid "about c3s"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:73
+#: ./collecting_society_portal_imp/resources.py:74
 msgid "contact"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:77
+#: ./collecting_society_portal_imp/resources.py:78
 msgid "imprint"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:99
+#: ./collecting_society_portal_imp/resources.py:100
 #: ./collecting_society_portal_imp/templates/musicfan/dashboard.pt:12
 msgid "Musicfan"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:106
+#: ./collecting_society_portal_imp/resources.py:107
 #: ./collecting_society_portal_imp/templates/musician/dashboard.pt:12
 msgid "Musician"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:116
+#: ./collecting_society_portal_imp/resources.py:117
 msgid "News"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:122
+#: ./collecting_society_portal_imp/resources.py:123
 #: ./collecting_society_portal_imp/templates/page/contact.pt:6
 msgid "Contact"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:128
+#: ./collecting_society_portal_imp/resources.py:129
 #: ./collecting_society_portal_imp/templates/page/imprint.pt:6
 msgid "Imprint"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:134
+#: ./collecting_society_portal_imp/resources.py:135
 msgid "Logout"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:143
+#: ./collecting_society_portal_imp/resources.py:144
 msgid "News Article 1"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:150
+#: ./collecting_society_portal_imp/resources.py:151
 msgid "News Article 2"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:157
+#: ./collecting_society_portal_imp/resources.py:158
 msgid "News Article 3"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:199
-#: ./collecting_society_portal_imp/resources.py:255
+#: ./collecting_society_portal_imp/resources.py:200
+#: ./collecting_society_portal_imp/resources.py:256
 msgid "Dashboard"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:209
+#: ./collecting_society_portal_imp/resources.py:210
 #: ./collecting_society_portal_imp/templates/client/list.pt:12
 msgid "Clients"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:219
+#: ./collecting_society_portal_imp/resources.py:220
 msgid "Music Utilization"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:265
+#: ./collecting_society_portal_imp/resources.py:266
 msgid "My Artists"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:275
+#: ./collecting_society_portal_imp/resources.py:276
 msgid "My Creations"
 msgstr ""
 
-#: ./collecting_society_portal_imp/resources.py:285
+#: ./collecting_society_portal_imp/resources.py:286
 msgid "Music Utilisation"
 msgstr ""
 
@@ -222,9 +222,6 @@ msgid ""
 "take the opportunity to join"
 msgstr ""
 
-#. 
-#. Used in sentence: "register yourself and install the <dynamic element>
-#. plugin into your music player"
 #: ./collecting_society_portal_imp/templates/page/home.pt:48
 #: ./collecting_society_portal_imp/templates/page/home.pt:53
 #: ./collecting_society_portal_imp/templates/page/home.pt:73
@@ -380,9 +377,11 @@ msgid "Start adoring"
 msgstr ""
 
 #: ./collecting_society_portal_imp/templates/page/details.pt:13
-msgid ""
-"register yourself and install the <dynamic element> plugin into your music "
-"player"
+msgid "register yourself and install the"
+msgstr ""
+
+#: ./collecting_society_portal_imp/templates/page/details.pt:13
+msgid "plugin into your music player"
 msgstr ""
 
 #: ./collecting_society_portal_imp/templates/page/details.pt:14
