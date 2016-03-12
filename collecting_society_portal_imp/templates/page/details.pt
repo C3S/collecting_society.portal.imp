@@ -1,65 +1,69 @@
 <!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
      Repository: https://github.com/C3S/collecting_society -->
 
-<h1 i18n:translate="">Details</h1>
+<tal:block i18n:domain="collecting_society_portal_imp">
 
-<p i18n:translate="">We aim at starting a beta test till end of 2016. Here's a preview to how it works:</p>
+    <h1 i18n:translate="">Details</h1>
 
-<h5 i18n:translate="">Start adoring</h5>
+    <p i18n:translate="">We aim at starting a beta test till end of 2016. Here's a preview to how it works:</p>
 
-<ul>
-    <li i18n:translate="">register yourself and install the <span class="cs-red">adore</span> plugin into your music player</li>
-    <li i18n:translate="">set up your account and decide how much to donate per month</li>
-    <li i18n:translate="">listen to your music</li>
-    <li i18n:translate="">by the end of each month your budget is equally donated to anyone you listened to</li>
-</ul>
+    <h5 i18n:translate="">Start adoring</h5>
 
-<h5 i18n:translate="">What happens with my money?</h5>
-
-<ul>
-    <li i18n:translate="">set your monthly budget as low as 2.50 €</li>
-    <li i18n:translate="">90 % of your monthly budget goes to the artist, 10 % cover administrational costs</li>
-    <li>
-        <span i18n:translate="">the administrational fee supports the</span><br />
-        <a href="https://www.c3s.cc/">Cultural Commons Collecting Society (C3S SCE)</a>
-    </li>
-    <li i18n:translate="">C3S SCE is a non-profit organization supporting artists</li>
-</ul>
-
-<h5 i18n:translate="">Become adored!</h5>
-
-<ul>
-    <li><span i18n:translate="">get yourself a creator‘s account at</span> <span class="cs-red">adore</span></li>
-    <li i18n:translate="">pay zero</li>
-    <li i18n:translate="">receive anonymized statistics per track such as revenue</li>
     <ul>
-        <li><span i18n:translate="">regional distribution of</span> <span class="cs-red">adorers</span> (<span i18n:translate="">late beta</span>)</li>
-        <li i18n:translate="">number of plays</li>
-        <li i18n:translate="">time range related analysis</li>
-        <li i18n:translate="">and more</li>
+        <li i18n:translate="">register yourself and install the <span i18n:translate="" class="cs-red">adore</span> plugin into your music player</li>
+        <li i18n:translate="">set up your account and decide how much to donate per month</li>
+        <li i18n:translate="">listen to your music</li>
+        <li i18n:translate="">by the end of each month your budget is equally donated to anyone you listened to</li>
     </ul>
-</ul>
 
-<p>
-    <span i18n:translate="">Artists who receive donations but have no account at</span> 
-    <span class="cs-red">adore</span> <span i18n:translate="">are notified</span>.
-</p>
+    <h5 i18n:translate="">What happens with my money?</h5>
 
-<p>
-    <span i18n:translate="">So relax, get yourself a beer, and receive donations on top of music you sold and even for music you didn‘t sell. Plus, it‘s ads-free. Being</span>
-    <span class="cs-red">adored</span> <span i18n:translate="">is fun, isn‘t it?</span>
- </p>
+    <ul>
+        <li i18n:translate="">set your monthly budget as low as 2.50 €</li>
+        <li i18n:translate="">90 % of your monthly budget goes to the artist, 10 % cover administrational costs</li>
+        <li>
+            <span i18n:translate="">the administrational fee supports the</span><br />
+            <a href="https://www.c3s.cc/">Cultural Commons Collecting Society (C3S SCE)</a>
+        </li>
+        <li i18n:translate="">C3S SCE is a non-profit organization supporting artists</li>
+    </ul>
 
-<p>
-   <span i18n:translate="">If you are interested how the whole process looks like from a technical perspective, watch this screencast:</span>
-</p>
+    <h5 i18n:translate="">Become adored!</h5>
 
-<p>
-   <div align="center" class="embed-responsive embed-responsive-16by9">
-        <video width="95%" preload controls class="embed-responsive-item">
-            <source src="https://archive.c3s.cc/aktuell/video/adore_screencast_en_02_HD_YT.webm" />
-            <source src="https://archive.c3s.cc/aktuell/video/adore_screencast_en_02_HD_YT.mp4" />
-            Your browser does not support the video tag.
-        </video>
-    </div>
-</p>
+    <ul>
+        <li><span i18n:translate="">get yourself a creator‘s account at</span> <span i18n:translate="" class="cs-red">adore</span></li>
+        <li i18n:translate="">pay zero</li>
+        <li i18n:translate="">receive anonymized statistics per track such as revenue</li>
+        <ul>
+            <li><span i18n:translate="">regional distribution of</span> <span i18n:translate="" class="cs-red">adorers</span> (<span i18n:translate="">late beta</span>)</li>
+            <li i18n:translate="">number of plays</li>
+            <li i18n:translate="">time range related analysis</li>
+            <li i18n:translate="">and more</li>
+        </ul>
+    </ul>
+
+    <p>
+        <span i18n:translate="">Artists who receive donations but have no account at</span> 
+        <span i18n:translate="" class="cs-red">adore</span> <span i18n:translate="">are notified</span>.
+    </p>
+
+    <p>
+        <span i18n:translate="">So relax, get yourself a beer, and receive donations on top of music you sold and even for music you didn‘t sell. Plus, it‘s ads-free. Being</span>
+        <span i18n:translate="" class="cs-red">adored</span> <span i18n:translate="">is fun, isn‘t it?</span>
+     </p>
+
+    <p>
+       <span i18n:translate="">If you are interested how the whole process looks like from a technical perspective, watch this screencast:</span>
+    </p>
+
+    <p>
+       <div align="center" class="embed-responsive embed-responsive-16by9">
+            <video width="95%" preload controls class="embed-responsive-item">
+                <source src="https://archive.c3s.cc/aktuell/video/adore_screencast_en_02_HD_YT.webm" />
+                <source src="https://archive.c3s.cc/aktuell/video/adore_screencast_en_02_HD_YT.mp4" />
+                <span i18n:translate="">Your browser does not support the video tag</span>.
+            </video>
+        </div>
+    </p>
+
+</tal:block>

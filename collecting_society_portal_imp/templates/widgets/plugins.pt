@@ -1,9 +1,9 @@
 <!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
      Repository: https://github.com/C3S/collecting_society.portal.imp -->
 
-<div class="cs-widget-plugins">
+<div class="cs-widget-plugins" i18n:domain="collecting_society_portal_imp">
 
-    <p i18n:translate="">Plugin herunterladen für</p>
+    <p i18n:translate="">Download plugin for</p>
 
     <a href="https://www.clementine-player.org">
         <img class="cs-widget-plugin-img img-responsive"

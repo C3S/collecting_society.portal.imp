@@ -1,7 +1,7 @@
 <!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
      Repository: https://github.com/C3S/collecting_society -->
 
-<tal:block metal:use-macro="frontend">
+<tal:block metal:use-macro="frontend" i18n:domain="collecting_society_portal_imp">
 
     <!-- top -->
     <tal:block metal:fill-slot="top">
@@ -44,13 +44,13 @@
         <div class="row">
             <div class="cs-widget col-sm-6">
                 <img src="${request.static_path('collecting_society_portal_imp:static/img/logo-musicfan.png')}" class="img-responsive cs-img-center" width="120" />
-                <h3 class="cs-fan cs-txt-center">FAN</h3>
-                <span i18n:translate="">Donate even smallest amounts to all the artists you like – you decide how much to spend per month. It is your sign telling them how awesome their music is – show it everytime you are dancing, headbanging and grooving to their tunes. If you are a musician yourself, or you are remixing tunes – why not take the opportunity to join</span> <span class="cs-red">adore</span> <span i18n:translate="">as an artist as well?</span> 
+                <h3 i18n:translate="" class="cs-fan cs-txt-center">FAN</h3>
+                <span i18n:translate="">Donate even smallest amounts to all the artists you like – you decide how much to spend per month. It is your sign telling them how awesome their music is – show it everytime you are dancing, headbanging and grooving to their tunes. If you are a musician yourself, or you are remixing tunes – why not take the opportunity to join</span> <span i18n:translate="" class="cs-red">adore</span> <span i18n:translate="">as an artist as well?</span> 
             </div>
             <div class="cs-widget col-sm-6">
                 <img src="${request.static_path('collecting_society_portal_imp:static/img/logo-musician.png')}" class="img-responsive cs-img-center" width="120" />
-                <h3 class="cs-musician cs-txt-center">ARTIST</h3>
-                <span class="cs-red">adore</span> <span i18n:translate="">keeps track of your songs across all players we are developing plugins for. You can literally play any street in the world without traveling there. Sharing music worldwide, receiving donations from everywhere. Don‘t miss out on revenues, however small they may be in the start. We are pretty sure you prefer some cents over one thumbs up, don‘t ya?</span>
+                <h3 i18n:translate="" class="cs-musician cs-txt-center">ARTIST</h3>
+                <span i18n:translate="" class="cs-red">adore</span> <span i18n:translate="">keeps track of your songs across all players we are developing plugins for. You can literally play any street in the world without traveling there. Sharing music worldwide, receiving donations from everywhere. Don‘t miss out on revenues, however small they may be in the start. We are pretty sure you prefer some cents over one thumbs up, don‘t ya?</span>
             </div>
         </div>
 
@@ -70,7 +70,7 @@
 
         <!-- content -->
         <div class="cs-widget hidden-xs">
-            <span class="cs-red">adore </span><span i18n:translate="">is based on a prototype project co-funded by EFRE funds within the Operational Programme "Target2: Regional Competitiveness and Employment" of the Federal State of North-Rhine Westphalia (NRW) and crowdfunding campaigns of the C3S community.</span>
+            <span i18n:translate="" class="cs-red">adore </span><span i18n:translate="">is based on a prototype project co-funded by EFRE funds within the Operational Programme "Target2: Regional Competitiveness and Employment" of the Federal State of North-Rhine Westphalia (NRW) and crowdfunding campaigns of the C3S community.</span>
             <br /><br />
             <img src="${request.static_path('collecting_society_portal_imp:static/img/logo-eu.jpg')}" class="img-responsive" />
         </div>

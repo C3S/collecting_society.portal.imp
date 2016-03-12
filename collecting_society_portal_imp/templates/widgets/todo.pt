@@ -3,7 +3,8 @@
 
 <!-- musician -->
 <div metal:define-macro="musician"
-     class="cs-widget-todo-steps">
+     class="cs-widget-todo-steps"
+     i18n:domain="collecting_society_portal_imp">
 
     <a tal:condition="True"
        tal:attributes="href '#'">
@@ -24,7 +25,8 @@
 
 <!-- musicfan -->
 <div metal:define-macro="musicfan"
-     class="cs-widget-todo-steps">
+     class="cs-widget-todo-steps"
+     i18n:domain="collecting_society_portal_imp">
 
     <a tal:condition="True"
        tal:attributes="href '#'">
