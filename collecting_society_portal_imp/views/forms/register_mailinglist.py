@@ -7,8 +7,9 @@ import logging
 import requests
 
 from collecting_society_portal.views.forms import FormController
-from collecting_society_portal.services import _
 from collecting_society_portal.resources import FrontendResource
+
+from ...services import _
 
 log = logging.getLogger(__name__)
 
