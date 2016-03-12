@@ -44,8 +44,8 @@ nosetests.xml
 coverage.xml
 
 # Translations
-*.mo
-*.pot
+#*.mo   unless we integrate the translation tools into the build process, 
+#*.pot  we need to version these files
 
 # Django stuff:
 *.log
@@ -55,3 +55,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# temp files
+*~
