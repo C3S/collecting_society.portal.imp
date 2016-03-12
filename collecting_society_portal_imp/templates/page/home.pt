@@ -10,7 +10,7 @@
         <tal:block metal:use-macro="m['navbar']"
                    tal:define="name 'page'; style 'navbar-fixed-top'">
             <tal:block metal:fill-slot="links">
-                <a tal:attributes="href '#'+menu.name">${menu.name}</a>
+                <a tal:attributes="href '#'+menu.page">${menu.name}</a>
             </tal:block>
         </tal:block>
 
@@ -56,7 +56,7 @@
 
         <!-- static sites -->
         <tal:block tal:repeat="menu context.registry['menues']['page']|None">
-            <a name="${menu.name}"></a>
+            <a name="${menu.page}"></a>
             <div metal:use-macro="load: ${menu.page}.pt"></div>
         </tal:block>
 
