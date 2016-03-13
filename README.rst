@@ -1,4 +1,4 @@
-collecting_society.portal.imp.imp
+collecting_society.portal.imp
 =============================
 
 Plugin for `Web Portal <https://github.com/C3S/collecting_society.portal.imp>`_ 
