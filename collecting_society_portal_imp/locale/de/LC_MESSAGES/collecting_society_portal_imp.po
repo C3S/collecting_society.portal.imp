@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
 "POT-Creation-Date: 2016-03-12 22:17+0100\n"
-"PO-Revision-Date: 2016-03-12 22:21+0100\n"
+"PO-Revision-Date: 2016-04-05 12:54+0100\n"
 "Last-Translator: Thomas Mielke <thomas.mielke@c3s.cc>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -67,15 +67,15 @@ msgstr "Logout"
 
 #: collecting_society_portal_imp/resources.py:144
 msgid "News Article 1"
-msgstr "Nwes Artikel 1"
+msgstr "News Artikel 1"
 
 #: collecting_society_portal_imp/resources.py:151
 msgid "News Article 2"
-msgstr "Nwes Artikel 2"
+msgstr "News Artikel 2"
 
 #: collecting_society_portal_imp/resources.py:158
 msgid "News Article 3"
-msgstr "Nwes Artikel 3"
+msgstr "News Artikel 3"
 
 #: collecting_society_portal_imp/resources.py:200
 #: collecting_society_portal_imp/resources.py:256
