@@ -26,7 +26,7 @@ log = logging.getLogger(__name__)
 
 @view_defaults(
     context='..resources.ClientResource',
-    permission='authenticated')
+    permission='read')
 class ClientViews(ViewBase):
 
     @view_config(

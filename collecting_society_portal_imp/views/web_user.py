@@ -36,7 +36,7 @@ class WebUserViews(ViewBase):
         context=NewsResource,
         name='',
         renderer='collecting_society_portal:templates/web_user/news.pt',
-        permission='authenticated'
+        permission='read'
     )
     def news(self):
         log.debug(self.context.registry['content']['news'])
@@ -46,14 +46,14 @@ class WebUserViews(ViewBase):
         context=ArticleResource,
         name='',
         renderer='collecting_society_portal:templates/web_user/article.pt',
-        permission='authenticated'
+        permission='read'
     )
     def article(self):
         return {}
 
     @view_config(
         name='logout',
-        permission='authenticated'
+        permission='read'
     )
     def logout(self):
         self.request.session.invalidate()

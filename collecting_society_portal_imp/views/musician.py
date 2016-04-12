@@ -12,7 +12,7 @@ from ..resources import MusicianResource
 
 @view_defaults(
     context='..resources.MusicianResource',
-    permission='authenticated')
+    permission='read')
 class MusicianViews(ViewBase):
 
     @view_config(

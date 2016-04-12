@@ -19,7 +19,7 @@ from ..models import CreationUtilisationIMP
 
 
 @view_defaults(
-    permission='authenticated')
+    permission='read')
 class UtilisationIMPViews(ViewBase):
 
     @view_config(
