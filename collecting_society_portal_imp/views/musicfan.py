@@ -16,7 +16,7 @@ log = logging.getLogger(__name__)
 
 @view_defaults(
     context='..resources.MusicfanResource',
-    permission='authenticated')
+    permission='read')
 class MusicfanViews(ViewBase):
 
     @view_config(
