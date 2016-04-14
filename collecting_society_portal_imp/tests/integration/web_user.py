@@ -16,13 +16,13 @@ class TestWebUser(IntegrationTestBase):
 
     def test_010_registration(self):
         '''
-        Integration / WebUser: registration registers and logs user in
+        registration registers and logs user in
         '''
 
         self.url('register')
         formid = 'RegisterWebuser'
         form = DeformFormObject(self.cli, register_form(), formid)
-        form.email.set('a1@webuser.test')
+        form.email.set('a@webuser.test')
         form.password.set('awebuser')
         form.submit()
         self.screenshot()
@@ -32,7 +32,7 @@ class TestWebUser(IntegrationTestBase):
 
     def test_020_logout(self):
         '''
-        Integration / WebUser: logout logs user out
+        logout logs user out
         '''
 
         self.url('logout')
@@ -42,13 +42,13 @@ class TestWebUser(IntegrationTestBase):
 
     def test_030_login_with_wrong_credentials(self):
         '''
-        Integration / WebUser: login with wrong credentials fails
+        login with wrong credentials fails
         '''
 
         self.url('login')
         formid = 'LoginWebuser'
         form = DeformFormObject(self.cli, login_form(), formid)
-        form.email.set('a1@webuser.test')
+        form.email.set('a@webuser.test')
         form.password.set('wrongpassword')
         form.submit()
         self.screenshot()
@@ -60,13 +60,13 @@ class TestWebUser(IntegrationTestBase):
 
     def test_040_login_with_right_credentials(self):
         '''
-        Integration / WebUser: login with right credentials logs user in
+        login with right credentials logs user in
         '''
 
         self.url('login')
         formid = 'LoginWebuser'
         form = DeformFormObject(self.cli, login_form(), formid)
-        form.email.set('a1@webuser.test')
+        form.email.set('a@webuser.test')
         form.password.set('awebuser')
         form.submit()
         self.screenshot()
