@@ -1,0 +1,943 @@
+#
+# German translations for PACKAGE package
+# This file is distributed under the same license as the PACKAGE package.
+# thomas <thomas.mielke@c3s.cc>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: Adore\n"
+"POT-Creation-Date: 2016-03-12 22:17+0100\n"
+"PO-Revision-Date: 2016-04-17 11:29+0100\n"
+"Last-Translator: Thomas Mielke <thomas.mielke@c3s.cc>\n"
+"Language-Team: Jordi\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Lingua 4.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: collecting_society_portal_imp/resources.py:62
+msgid "overview"
+msgstr "Visión General"
+
+#: collecting_society_portal_imp/resources.py:66
+msgid "details"
+msgstr "Detalles"
+
+#: collecting_society_portal_imp/resources.py:70
+msgid "about c3s"
+msgstr "Sobre la C3S"
+
+#: collecting_society_portal_imp/resources.py:74
+msgid "contact"
+msgstr "Contacto"
+
+#: collecting_society_portal_imp/resources.py:78
+msgid "imprint"
+msgstr "Equipo responsable"
+
+#: collecting_society_portal_imp/resources.py:100
+#: collecting_society_portal_imp/templates/musicfan/dashboard.pt:12
+msgid "Musicfan"
+msgstr "Fan"
+
+#: collecting_society_portal_imp/resources.py:107
+#: collecting_society_portal_imp/templates/musician/dashboard.pt:12
+msgid "Musician"
+msgstr "Músico"
+
+#: collecting_society_portal_imp/resources.py:117
+msgid "News"
+msgstr "Noticias"
+
+#: collecting_society_portal_imp/resources.py:123
+#: collecting_society_portal_imp/templates/page/contact.pt:6
+msgid "Contact"
+msgstr "Contacto"
+
+#: collecting_society_portal_imp/resources.py:129
+#: collecting_society_portal_imp/templates/page/imprint.pt:6
+msgid "Imprint"
+msgstr "Equipo responsable"
+
+#: collecting_society_portal_imp/resources.py:135
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: collecting_society_portal_imp/resources.py:144
+msgid "News Article 1"
+msgstr "Noticias Artículo 1"
+
+#: collecting_society_portal_imp/resources.py:151
+msgid "News Article 2"
+msgstr "Noticias Artículo 2"
+
+#: collecting_society_portal_imp/resources.py:158
+msgid "News Article 3"
+msgstr "Noticias Artículo 3"
+
+#: collecting_society_portal_imp/resources.py:200
+#: collecting_society_portal_imp/resources.py:256
+msgid "Dashboard"
+msgstr "Panel de control"
+
+#: collecting_society_portal_imp/resources.py:210
+#: collecting_society_portal_imp/templates/client/list.pt:12
+msgid "Clients"
+msgstr "Clientes"
+
+#: collecting_society_portal_imp/resources.py:220
+msgid "Music Utilization"
+msgstr "Uso de la música"
+
+#: collecting_society_portal_imp/resources.py:266
+msgid "My Artists"
+msgstr "Mis artistas"
+
+#: collecting_society_portal_imp/resources.py:276
+msgid "My Creations"
+msgstr "Mis obras"
+
+#: collecting_society_portal_imp/resources.py:286
+msgid "Music Utilisation"
+msgstr "Uso de la música"
+
+#: collecting_society_portal_imp/views/client.py:63
+msgid "Could not delete client - uuid is missing"
+msgstr "El cliente no pudo ser borrado - falta la uuid"
+
+#: collecting_society_portal_imp/views/client.py:71
+msgid "Could not delete client - client not found"
+msgstr "El cliente no pudo ser borrado - cliente no encontrado"
+
+#: collecting_society_portal_imp/views/client.py:78
+msgid "Client deleted: "
+msgstr "Cliente eliminado"
+
+#: collecting_society_portal_imp/views/forms/register_mailinglist.py:55
+msgid "Registration successfull"
+msgstr "Registro realizado"
+
+#: collecting_society_portal_imp/views/forms/register_mailinglist.py:81
+msgid "Your e-mail"
+msgstr "Tu correo electrónico"
+
+#: collecting_society_portal_imp/views/forms/register_mailinglist.py:82
+msgid "Receive a notification when the beta version launches"
+msgstr "Recibir un mensaje cuando se lance la versión beta"
+
+#: collecting_society_portal_imp/views/forms/register_mailinglist.py:92
+#: collecting_society_portal_imp/views/forms/add_client.py:149
+msgid "Submit"
+msgstr "Enviar"
+
+#: collecting_society_portal_imp/views/forms/add_client.py:69
+msgid "Client already exists: "
+msgstr "El cliente ya existe"
+
+#: collecting_society_portal_imp/views/forms/add_client.py:93
+msgid "Client could not be added: "
+msgstr "El cliente no pudo ser añadido"
+
+#: collecting_society_portal_imp/views/forms/add_client.py:104
+msgid "Client added: "
+msgstr "Cliente añadido"
+
+#: collecting_society_portal_imp/views/forms/add_client.py:128
+msgid "Add Client"
+msgstr "Añadir cliente"
+
+#: collecting_society_portal_imp/views/forms/add_client.py:130
+msgid "Uuid"
+msgstr "Uuid"
+
+#: collecting_society_portal_imp/views/forms/add_client.py:133
+#: collecting_society_portal_imp/templates/page/imprint.pt:25
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: collecting_society_portal_imp/views/forms/add_client.py:136
+msgid "Password"
+msgstr "Contraseña"
+
+# To do what? In wich context it's used that sentence?
+# >>>TM: In the sense of "todo list"
+#: collecting_society_portal_imp/views/widgets/todo.py:10
+#: collecting_society_portal_imp/views/widgets/todo.py:20
+msgid "To Do"
+msgstr "Para hacer"
+
+#: collecting_society_portal_imp/views/widgets/plugins.py:10
+msgid "Plugin"
+msgstr "Plugin"
+
+#: collecting_society_portal_imp/views/widgets/pocket.py:19
+msgid "Pocket"
+msgstr "Pocket"
+
+#: collecting_society_portal_imp/templates/page/home.pt:23
+msgid "adore Plugin*"
+msgstr "Plugin adore*"
+
+#: collecting_society_portal_imp/templates/page/home.pt:24
+msgid "The beta version will be based on the"
+msgstr "La versión beta se basará en la"
+
+#: collecting_society_portal_imp/templates/page/home.pt:24
+msgid "Clementine music player"
+msgstr "Reproductor de música Clementine"
+
+#: collecting_society_portal_imp/templates/page/home.pt:24
+msgid "As soon as the news for the beta launch is out, please"
+msgstr ""
+"Tran pronto salgan noticias del lanzamiento de la versión beta, por favor"
+
+#: collecting_society_portal_imp/templates/page/home.pt:24
+msgid "download it here"
+msgstr "descargar aquí"
+
+#: collecting_society_portal_imp/templates/page/home.pt:24
+msgid "Instructions on where to get and how to seamlessly install the"
+msgstr "Las instrucciones sobre cómo obtener e instalar fácilmente el"
+
+#: collecting_society_portal_imp/templates/page/home.pt:24
+msgid "plugin will be available right here on this site"
+msgstr "plugin estarán disponibles en esta misma página web"
+
+#: collecting_society_portal_imp/templates/page/home.pt:38
+msgid "Welcome to adore"
+msgstr "Bienvenido a adore"
+
+#: collecting_society_portal_imp/templates/page/home.pt:39
+msgid "Join our community"
+msgstr "Únete a nuestra comunidad"
+
+#: collecting_society_portal_imp/templates/page/home.pt:47
+msgid "FAN"
+msgstr "FAN"
+
+#: collecting_society_portal_imp/templates/page/home.pt:48
+msgid ""
+"Donate even smallest amounts to all the artists you like – you decide how "
+"much to spend per month. It is your sign telling them how awesome their "
+"music is – show it everytime you are dancing, headbanging and grooving to "
+"their tunes. If you are a musician yourself, or you are remixing tunes – why "
+"not take the opportunity to join"
+msgstr ""
+"Es posible donar cantidades modestas a todos los artistas que te gustan - tú "
+"decides cuánto donar por mes. Es una manera de decirles cuánto valoras su "
+"música - y lo estarás demostrando cada vez que disfrutes sus melodías. Si "
+"eres músico o remezclas canciones - ¿por qué no aprovechar la oportunidad de "
+"unirte?"
+
+#: collecting_society_portal_imp/templates/page/home.pt:48
+#: collecting_society_portal_imp/templates/page/home.pt:53
+#: collecting_society_portal_imp/templates/page/home.pt:73
+#: collecting_society_portal_imp/templates/page/contact.pt:10
+#: collecting_society_portal_imp/templates/page/overview.pt:25
+#: collecting_society_portal_imp/templates/page/overview.pt:33
+#: collecting_society_portal_imp/templates/page/overview.pt:46
+#: collecting_society_portal_imp/templates/page/details.pt:13
+#: collecting_society_portal_imp/templates/page/details.pt:34
+#: collecting_society_portal_imp/templates/page/details.pt:47
+msgid "adore"
+msgstr "adore"
+
+#: collecting_society_portal_imp/templates/page/home.pt:48
+msgid "as an artist as well?"
+msgstr "¿Registrarse también como artista?"
+
+#: collecting_society_portal_imp/templates/page/home.pt:52
+msgid "ARTIST"
+msgstr "ARTISTA"
+
+# I must adapt the translation because the reference as Street musician is confusing in spanish. I've wroten something as "you music will sound all around the world..."
+# >>>TM: That's ok.
+#: collecting_society_portal_imp/templates/page/home.pt:53
+msgid ""
+"keeps track of your songs across all players we are developing plugins for. "
+"You can literally play any street in the world without traveling there. "
+"Sharing music worldwide, receiving donations from everywhere. Don‘t miss out "
+"on revenues, however small they may be in the start. We are pretty sure you "
+"prefer some cents over one thumbs up, don‘t ya?"
+msgstr ""
+"Mantiene un registro de tus canciones en todos los reproductores de música "
+"para los que estamos desarrollando plugins. Tu música sonará en cualquier "
+"lugar del mundo sin que tengas que desplazarte, y podrás recibir donaciones "
+"por ello. No renuncies a unos ingresos por pequeños que sean al principio. "
+"Estamos seguros de que prefieres unos céntimos a un \"me gusta\", ¿no es así?"
+
+#: collecting_society_portal_imp/templates/page/home.pt:73
+msgid ""
+"is based on a prototype project co-funded by EFRE funds within the "
+"Operational Programme \"Target2: Regional Competitiveness and Employment\" "
+"of the Federal State of North-Rhine Westphalia (NRW) and crowdfunding "
+"campaigns of the C3S community."
+msgstr ""
+"está basado en un proyecto piloto cofinanciado con fondos de EFRE dentro del "
+"programa \"Competitividad y empleo regional\" del estado de Renania del "
+"Norte-Westfalia (Alemania), y por medio de campañas de crowdfunding de la "
+"comunidad C3S."
+
+#: collecting_society_portal_imp/templates/page/contact.pt:9
+#: collecting_society_portal_imp/templates/page/overview.pt:46
+msgid "If you have any questions regarding"
+msgstr "Si tienes preguntas al respecto"
+
+#: collecting_society_portal_imp/templates/page/contact.pt:11
+msgid "please e-mail us at"
+msgstr "por favor, escríbenos un correo electrónico a"
+
+#: collecting_society_portal_imp/templates/page/contact.pt:13
+#: collecting_society_portal_imp/templates/page/overview.pt:48
+msgid "For business inquiries, please contact"
+msgstr "Para ofertas o solicitudes comerciales, por favor contactar"
+
+#: collecting_society_portal_imp/templates/page/overview.pt:6
+msgid "Overview"
+msgstr "Visión general"
+
+#: collecting_society_portal_imp/templates/page/overview.pt:9
+msgid "Anyone listens to music."
+msgstr "Todo el mundo escucha música."
+
+#: collecting_society_portal_imp/templates/page/overview.pt:10
+msgid "Anyone loves to listen to music."
+msgstr "Todo el mundo adora escuchar música."
+
+#: collecting_society_portal_imp/templates/page/overview.pt:11
+msgid "We listen to music wherever we can."
+msgstr "Escuchamos música dondequiera que sea."
+
+#: collecting_society_portal_imp/templates/page/overview.pt:14
+msgid "We adore music."
+msgstr "Adoramos la música."
+
+# I made an adapted translation. The text in english doesn't make too much sense if I translate it literally.
+# >>>TM: I had the same problem with the German translation. I hope it makes sense at all in English. :D I think it's too enthusiastic and 'embracing' -- but I'm not a marketing guy...
+#: collecting_society_portal_imp/templates/page/overview.pt:16
+msgid ""
+"It is the way how we listen to music that differs, and it is the way how we "
+"acquire it that differs. We are paying for streams, we are buying downloads, "
+"CDs, vinyl and even more odd formats. We are cheering to live music and we "
+"are enjoying music at friends. There‘s all sorts of media we are listening "
+"to."
+msgstr ""
+"La manera en cómo adquirimos y escuchamos música es diferente de una persona "
+"a otra. Reproducimos listas de streaming, compramos descargas, CDs, vinilos "
+"o cualquier otro tipo de formato. Asistimos con placer a conciertos o "
+"escuchamos música en casa con nuestros amigos. Hay mil maneras de disfrutar "
+"la música."
+
+#: collecting_society_portal_imp/templates/page/overview.pt:20
+msgid ""
+"But it is one thing we share – we all want to support the artists in making "
+"their music. The music market by and large made us lose the fan-to-artist "
+"connection. DIY brought it back. DIY means social media. Technology helps "
+"core fans to keep track of artists they adore. Now let casual supporters "
+"come close and share music the same way – throw your cents in the artist‘s "
+"bin!"
+msgstr ""
+"Pero hay una cosa que nos une: todos queremos apoyar a los artistas para que "
+"puedan seguir creando su música. La industria musical ha hecho disminuir la "
+"conexión entre los artistas y sus fans. El movimiento DIY (do it yourself - "
+"hazlo tú mismo) nos ha devuelto esto. DIY significa redes sociales. La "
+"tecnología ayuda a que los fans puedan seguir a los artistas que admiran. "
+"Incluso los oyentes ocasionales pueden contactar con ellos y donarles unos "
+"céntimos."
+
+#: collecting_society_portal_imp/templates/page/overview.pt:25
+msgid "honors the craftsmanship of creativity"
+msgstr "significa un reconocimiento por la labor de las personas creativas"
+
+#: collecting_society_portal_imp/templates/page/overview.pt:28
+msgid ""
+"We aim at starting a beta test till end of 2016. Join our newsletter at the "
+"top of this page to be the first to know. You will be updated on any feature "
+"news and more."
+msgstr ""
+"Pretendemos lanzar la versión beta a finales de 2016. Suscríbete a nuestra "
+"newsletter (en la parte superior) para obtener las últimas noticias. Te "
+"avisaremos de cualquier novedad o noticia."
+
+#: collecting_society_portal_imp/templates/page/overview.pt:33
+msgid "Or follow"
+msgstr "O sigue"
+
+#: collecting_society_portal_imp/templates/page/overview.pt:33
+msgid "using alternative channels:"
+msgstr "sobre canales alternativos:"
+
+#: collecting_society_portal_imp/templates/page/overview.pt:37
+msgid "wiki"
+msgstr "wiki"
+
+#: collecting_society_portal_imp/templates/page/overview.pt:38
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:35
+msgid "facebook"
+msgstr "Facebook"
+
+#: collecting_society_portal_imp/templates/page/overview.pt:39
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:36
+msgid "twitter"
+msgstr "Twitter"
+
+#: collecting_society_portal_imp/templates/page/overview.pt:40
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:37
+msgid "google+"
+msgstr "Google+"
+
+#: collecting_society_portal_imp/templates/page/overview.pt:41
+msgid "ello"
+msgstr "Ello"
+
+#: collecting_society_portal_imp/templates/page/overview.pt:42
+msgid "diaspora"
+msgstr "Diaspora"
+
+#: collecting_society_portal_imp/templates/page/overview.pt:46
+msgid "please e-mail us to"
+msgstr "Escríbenos, por favor, a"
+
+#: collecting_society_portal_imp/templates/page/details.pt:6
+msgid "Details"
+msgstr "Detalles"
+
+#: collecting_society_portal_imp/templates/page/details.pt:8
+msgid ""
+"We aim at starting a beta test till end of 2016. Here's a preview to how it "
+"works:"
+msgstr ""
+"Pretendemos lanzar la versión beta a finales de 2016. Aquí tienes un avance "
+"de cómo funciona:"
+
+#: collecting_society_portal_imp/templates/page/details.pt:10
+msgid "Start adoring"
+msgstr "Empieza con adore"
+
+#: collecting_society_portal_imp/templates/page/details.pt:13
+msgid "register yourself and install the"
+msgstr "Regístrate e instala el"
+
+#: collecting_society_portal_imp/templates/page/details.pt:13
+msgid "plugin into your music player"
+msgstr "plugin en tu reproductor de música"
+
+#: collecting_society_portal_imp/templates/page/details.pt:14
+msgid "set up your account and decide how much to donate per month"
+msgstr "Configura tu cuenta de usuario y decide cuánto quieres donar cada mes"
+
+#: collecting_society_portal_imp/templates/page/details.pt:15
+msgid "listen to your music"
+msgstr "Escucha tu música"
+
+# equally? I mean: if you hear 100 times at artist A, and 1 time at artist B, it's the same money quantity donated to both artists? I ask that only for translation purposes
+# >>>TM: No, actually the money is distributed according to the tracks played by the artists.
+#: collecting_society_portal_imp/templates/page/details.pt:16
+msgid ""
+"by the end of each month your budget is equally donated to anyone you "
+"listened to"
+msgstr ""
+"Al final de cada mes tu presupuesto se repartirá a partes iguales entre "
+"todos los artistas a quienes has escuchado"
+
+#: collecting_society_portal_imp/templates/page/details.pt:19
+msgid "What happens with my money?"
+msgstr "¿Qué sucede con mi dinero?"
+
+#: collecting_society_portal_imp/templates/page/details.pt:22
+msgid "set your monthly budget as low as 2.50 €"
+msgstr "Configura tu presupuesto mensual con un mínimo de 2,50 €"
+
+#: collecting_society_portal_imp/templates/page/details.pt:23
+msgid ""
+"90 % of your monthly budget goes to the artist, 10 % cover administrational "
+"costs"
+msgstr ""
+"El 90% de tu presupuesto mensual se destina a los artistas, el 10% restante "
+"cubre gastos administrativos"
+
+#: collecting_society_portal_imp/templates/page/details.pt:25
+msgid "the administrational fee supports the"
+msgstr "La tarifa administrativa apoya a"
+
+#: collecting_society_portal_imp/templates/page/details.pt:28
+msgid "C3S SCE is a non-profit organization supporting artists"
+msgstr ""
+"C3S SCE es una organización sin ánimo de lucro cuyo propósito es apoyar a "
+"los artistas"
+
+#: collecting_society_portal_imp/templates/page/details.pt:31
+msgid "Become adored!"
+msgstr "¡Deja que te adoren!"
+
+#: collecting_society_portal_imp/templates/page/details.pt:34
+msgid "get yourself a creator‘s account at"
+msgstr "Consigue una cuenta de creador en"
+
+#: collecting_society_portal_imp/templates/page/details.pt:35
+msgid "pay zero"
+msgstr "la cuenta es totalmente gratuita"
+
+#: collecting_society_portal_imp/templates/page/details.pt:36
+msgid "receive anonymized statistics per track such as revenue"
+msgstr "recibe estadísticas anónimas por pista, así como de los ingresos"
+
+#: collecting_society_portal_imp/templates/page/details.pt:38
+msgid "regional distribution of"
+msgstr "distribución regional de"
+
+#: collecting_society_portal_imp/templates/page/details.pt:38
+msgid "adorers"
+msgstr "Adoradores"
+
+#: collecting_society_portal_imp/templates/page/details.pt:38
+msgid "late beta"
+msgstr "última beta"
+
+#: collecting_society_portal_imp/templates/page/details.pt:39
+msgid "number of plays"
+msgstr "número de reproducciones"
+
+#: collecting_society_portal_imp/templates/page/details.pt:40
+msgid "time range related analysis"
+msgstr "Análisis basado en intervalo de tiempo"
+
+#: collecting_society_portal_imp/templates/page/details.pt:41
+msgid "and more"
+msgstr "y mucho más"
+
+#: collecting_society_portal_imp/templates/page/details.pt:46
+msgid "Artists who receive donations but have no account at"
+msgstr ""
+"Los artistas que han recibido donaciones pero que no tienen cuenta de usuario"
+
+#: collecting_society_portal_imp/templates/page/details.pt:47
+msgid "are notified"
+msgstr "serán notificados"
+
+# That "being" at the end is not translated to german. Should I translate it? How does the sentence continues? Being...
+# >>>TM: It's because in the page's code the text is followed by "adored" (next line) which is highlighted. The text continues with "is fun, isn't it". In the German translation I had to reorganize the sentence.
+# See https://www.adore-music.com/#details above the video box.
+#: collecting_society_portal_imp/templates/page/details.pt:51
+msgid ""
+"So relax, get yourself a beer, and receive donations on top of music you "
+"sold and even for music you didn‘t sell. Plus, it‘s ads-free. Being"
+msgstr ""
+"Así que relájate, tómate una cerveza, y recibe donaciones por las canciones "
+"que vendas e incluso aunque no la vendas. Además, no usamos publicidad."
+
+#: collecting_society_portal_imp/templates/page/details.pt:52
+msgid "adored"
+msgstr "Ser \"Adorado\""
+
+#: collecting_society_portal_imp/templates/page/details.pt:52
+msgid "is fun, isn‘t it?"
+msgstr "es divertido, ¿verdad?"
+
+#: collecting_society_portal_imp/templates/page/details.pt:56
+msgid ""
+"If you are interested how the whole process looks like from a technical "
+"perspective, watch this screencast:"
+msgstr ""
+"Si te interesa conocer como funciona todo el proceso desde una perspectiva "
+"técnica, mira este vídeo:"
+
+#: collecting_society_portal_imp/templates/page/details.pt:64
+msgid "Your browser does not support the video tag"
+msgstr "Tu navegador no soporta esta etiqueta de vídeo"
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:6
+msgid "About C3S"
+msgstr "Sobre C3S"
+
+# I translated the "for music" as "para músicos" (for musicians). I think it makes more sense in the spanish language. But I don't know if that is right, legally speaking.
+# >>>TM: I think that's ok.
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:8
+msgid ""
+"C3S SCE has been founded in September 2013. Taking the legal form of a "
+"European Cooperative (SCE), it is intended to launch as the first true "
+"European collecting society for music."
+msgstr ""
+"La C3S fue fundada en septiembre de 2013. Legalmente se constituye como "
+"sociedad cooperativa europea (SCE) y pretende convertirse en la primera "
+"entidad de gestión colectiva a nivel europeo para músicos."
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:12
+msgid ""
+"C3S SCE will spawn a new, international and mainly online based market. It "
+"is an opportunity for musicians who will not or cannot join traditional "
+"collecting societies to monetize their work without having to give up their "
+"way of licensing. C3S SCE is about to provide standard all rights reserved "
+"licences as well as as Creative Commons licences, including all six "
+"variations."
+msgstr ""
+"La C3S SCE se pone como objetivo generar un mercado nuevo, internacional y "
+"mayormente online. Para los músicos que no desean o no pueden unirse a las "
+"entidades de gestión colectiva tradicionales, esta es una oportunidad de "
+"recibir ingresos por sus obras sin tener que renunciar al tipo de licencia "
+"que desean. La C3S SCE apoyará tanto las tradicionales licencias copyright "
+"como las licencias Creative Commons, incluyendo seis variantes de esta."
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:16
+msgid ""
+"Giving way to a regionally less constrained model, C3S in the long run is to "
+"offer subsidiaries in all European countries providing one streamlined "
+"licensing model."
+msgstr ""
+"A largo plazo la C3S abrirá filiales en todos los países europeos, para "
+"ofrecer un modelo unificado de licencias."
+
+# When you say "legal successors", I understand you're referring to people who inherited rights over previous works. Am I right?
+# >>>TM: Yes, when sombody dies and the possesions a being owned by her child.
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:20
+msgid ""
+"Full Membership is limited to creators only to avoid distortion of "
+"discussion topics by objectives of legal successors and publishers. Enabling "
+"the introduction to music and musical production, and promoting new ways in "
+"creation of cultural works, C3S will be open to all kinds of creators: "
+"professionals, semi-professionals and the new breed of all creative users."
+msgstr ""
+"Solo los creadores podrán ser miembros de pleno derecho para evitar la "
+"influencia de los herederos y los editores en los temas a discutir. La C3S "
+"se abrirá a todo tipo de creadores: profesionales, semiprofesionales y "
+"usuarios creativos, y potenciará nuevas formas de producción musical y "
+"promoción de obras culturales."
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:25
+msgid ""
+"Additionally, cultural projects and educational programmes addressing "
+"copyright issues will be supported."
+msgstr ""
+"Adicionalmente, se apoyarán proyectos culturales y educativos que se "
+"refieran a temas de copyright."
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:26
+msgid "Read the"
+msgstr "Lee el"
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:26
+msgid "Cultural Commons Manifesto"
+msgstr "Manifiesto Cultural Commons"
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:27
+msgid "Get to know our"
+msgstr "Conoce nuestros"
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:27
+msgid "Statutes"
+msgstr "Estatutos"
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:28
+msgid "Become a member"
+msgstr "Hazte miembro"
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:28
+msgid "here"
+msgstr "aquí"
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:31
+msgid "Follow us on your favorite channels:"
+msgstr "Síguenos en tus canales favoritos:"
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:34
+msgid "website"
+msgstr "sitio web"
+
+#: collecting_society_portal_imp/templates/page/aboutc3s.pt:38
+msgid "youtube"
+msgstr "Youtube"
+
+# Should I translate that? Especially the "mit beschränkter Haftung"
+# >>>TM: No, that's part of the German legal term.
+#: collecting_society_portal_imp/templates/page/imprint.pt:10
+#: collecting_society_portal_imp/templates/page/imprint.pt:36
+msgid ""
+"Cultural Commons Collecting Society SCE mit beschränkter Haftung (C3S SCE)"
+msgstr ""
+"Cultural Commons Collecting Society SCE mit beschränkter Haftung (C3S SCE)"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:13
+msgid "Representatives"
+msgstr "Representantes"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:19
+msgid "Heyestr. 194"
+msgstr "Heyestr. 194"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:20
+msgid "40625 Düsseldorf"
+msgstr "40625 Düsseldorf"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:21
+msgid "Germany"
+msgstr "Alemania"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:26
+msgid "OpenPGP Public Key"
+msgstr "Clave pública para OpenPGP"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:31
+msgid "Phone"
+msgstr "Teléfono"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:32
+msgid "Fax"
+msgstr "Fax"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:37
+msgid ""
+"registered in Dusseldorf, Germany, reg.no.: GnR 506 (Genossenschaftsregister "
+"Düsseldorf)"
+msgstr ""
+"registrado en Dusseldorf, Alemania, Reg.-Nº: GnR 506 "
+"(Genossenschaftsregister Düsseldorf)"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:38
+msgid "registered office"
+msgstr "oficina registrada"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:38
+msgid "Heyestr. 194, 40625 Düsseldorf"
+msgstr "Heyestr. 194, 40625 Düsseldorf"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:39
+msgid "Minimum share capital"
+msgstr "Capital social mínimo"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:40
+msgid ""
+"European Cooperative Society founded in Hamburg on Sept. 25, 2013 under the "
+"law of the Federal Republic of Germany."
+msgstr ""
+"Sociedad cooperativa europea fundada en Hamburgo el 23 de septiembre de 2013 "
+"bajo las leyes de la República Federal de Alemania."
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:43
+msgid "Statute"
+msgstr "Estatutos"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:48
+msgid ""
+"Zuständige Aufsichtsbehörde bei Aufnahme der Tätigkeit als "
+"Verwertungsgesellschaft wird sein"
+msgstr ""
+"Zuständige Aufsichtsbehörde bei Aufnahme der Tätigkeit als "
+"Verwertungsgesellschaft wird sein"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:49
+msgid "DPMA Deutsches Patent- und Markenamt"
+msgstr "DPMA Deutsches Patent- und Markenamt"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:50
+msgid "Zweibrückenstraße 12"
+msgstr "Zweibrückenstraße 12"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:51
+msgid "80331 München"
+msgstr "80331 München"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:56
+msgid "Haftungsausschluss"
+msgstr "Haftungsausschluss"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:58
+msgid "1. Inhalt des Onlineangebotes"
+msgstr "1. Inhalt des Onlineangebotes"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:60
+msgid ""
+"Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, "
+"Vollständigkeit oder Qualität der bereitgestellten Informationen. "
+"Haftungsansprüche gegen den Autor, welche sich auf Schäden materieller oder "
+"ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der "
+"dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und "
+"unvollständiger Informationen verursacht wurden, sind grundsätzlich "
+"ausgeschlossen, sofern seitens des Autors kein nachweislich vorsätzliches "
+"oder grob fahrlässiges Verschulden vorliegt."
+msgstr ""
+"Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, "
+"Vollständigkeit oder Qualität der bereitgestellten Informationen. "
+"Haftungsansprüche gegen den Autor, welche sich auf Schäden materieller oder "
+"ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der "
+"dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und "
+"unvollständiger Informationen verursacht wurden, sind grundsätzlich "
+"ausgeschlossen, sofern seitens des Autors kein nachweislich vorsätzliches "
+"oder grob fahrlässiges Verschulden vorliegt."
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:64
+msgid ""
+"Alle Angebote sind freibleibend und unverbindlich. Der Autor behält es sich "
+"ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte "
+"Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung "
+"zeitweise oder endgültig einzustellen."
+msgstr ""
+"Alle Angebote sind freibleibend und unverbindlich. Der Autor behält es sich "
+"ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte "
+"Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung "
+"zeitweise oder endgültig einzustellen."
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:68
+msgid "2. Verweise und Links"
+msgstr "2. Verweise und Links"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:70
+msgid ""
+"Bei direkten oder indirekten Verweisen auf fremde Webseiten (Hyperlinks), "
+"die außerhalb des Verantwortungsbereiches des Autors liegen, würde eine "
+"Haftungsverpflichtung ausschließlich in dem Fall in Kraft treten, in dem der "
+"Autor von den Inhalten Kenntnis hat und es ihm technisch möglich und "
+"zumutbar wäre, die Nutzung im Falle rechtswidriger Inhalte zu verhindern."
+msgstr ""
+"Bei direkten oder indirekten Verweisen auf fremde Webseiten (Hyperlinks), "
+"die außerhalb des Verantwortungsbereiches des Autors liegen, würde eine "
+"Haftungsverpflichtung ausschließlich in dem Fall in Kraft treten, in dem der "
+"Autor von den Inhalten Kenntnis hat und es ihm technisch möglich und "
+"zumutbar wäre, die Nutzung im Falle rechtswidriger Inhalte zu verhindern."
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:74
+msgid ""
+"Der Autor erklärt hiermit ausdrücklich, dass zum Zeitpunkt der Linksetzung "
+"keine illegalen Inhalte auf den zu verlinkenden Seiten erkennbar waren. Auf "
+"die aktuelle und zukünftige Gestaltung, die Inhalte oder die Urheberschaft "
+"der verlinkten/verknüpften Seiten hat der Autor keinerlei Einfluss. Deshalb "
+"distanziert er sich hiermit ausdrücklich von allen Inhalten aller "
+"verlinkten /verknüpften Seiten, die nach der Linksetzung verändert wurden. "
+"Diese Feststellung gilt für alle innerhalb des eigenen Internetangebotes "
+"gesetzten Links und Verweise sowie für Fremdeinträge in vom Autor "
+"eingerichteten Gästebüchern, Diskussionsforen, Linkverzeichnissen, "
+"Mailinglisten und in allen anderen Formen von Datenbanken, auf deren Inhalt "
+"externe Schreibzugriffe möglich sind. Für illegale, fehlerhafte oder "
+"unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung "
+"oder Nichtnutzung solcherart dargebotener Informationen entstehen, haftet "
+"allein der Anbieter der Seite, auf welche verwiesen wurde, nicht derjenige, "
+"der über Links auf die jeweilige Veröffentlichung lediglich verweist."
+msgstr ""
+"Der Autor erklärt hiermit ausdrücklich, dass zum Zeitpunkt der Linksetzung "
+"keine illegalen Inhalte auf den zu verlinkenden Seiten erkennbar waren. Auf "
+"die aktuelle und zukünftige Gestaltung, die Inhalte oder die Urheberschaft "
+"der verlinkten/verknüpften Seiten hat der Autor keinerlei Einfluss. Deshalb "
+"distanziert er sich hiermit ausdrücklich von allen Inhalten aller "
+"verlinkten /verknüpften Seiten, die nach der Linksetzung verändert wurden. "
+"Diese Feststellung gilt für alle innerhalb des eigenen Internetangebotes "
+"gesetzten Links und Verweise sowie für Fremdeinträge in vom Autor "
+"eingerichteten Gästebüchern, Diskussionsforen, Linkverzeichnissen, "
+"Mailinglisten und in allen anderen Formen von Datenbanken, auf deren Inhalt "
+"externe Schreibzugriffe möglich sind. Für illegale, fehlerhafte oder "
+"unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung "
+"oder Nichtnutzung solcherart dargebotener Informationen entstehen, haftet "
+"allein der Anbieter der Seite, auf welche verwiesen wurde, nicht derjenige, "
+"der über Links auf die jeweilige Veröffentlichung lediglich verweist."
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:78
+msgid "3. Urheber- und Kennzeichenrecht"
+msgstr "3. Urheber- und Kennzeichenrecht"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:80
+msgid ""
+"Der Autor ist bestrebt, in allen Publikationen die Urheberrechte der "
+"verwendeten Grafiken, Tondokumente, Videosequenzen und Texte zu beachten, "
+"von ihm selbst erstellte Grafiken, Tondokumente, Videosequenzen und Texte zu "
+"nutzen oder auf lizenzfreie Grafiken, Tondokumente, Videosequenzen und Texte "
+"zurückzugreifen."
+msgstr ""
+"Der Autor ist bestrebt, in allen Publikationen die Urheberrechte der "
+"verwendeten Grafiken, Tondokumente, Videosequenzen und Texte zu beachten, "
+"von ihm selbst erstellte Grafiken, Tondokumente, Videosequenzen und Texte zu "
+"nutzen oder auf lizenzfreie Grafiken, Tondokumente, Videosequenzen und Texte "
+"zurückzugreifen."
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:84
+msgid ""
+"Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte "
+"geschützten Marken- und Warenzeichen unterliegen uneingeschränkt den "
+"Bestimmungen des jeweils gültigen Kennzeichenrechts und den Besitzrechten "
+"der jeweiligen eingetragenen Eigentümer. Allein aufgrund der bloßen Nennung "
+"ist nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte "
+"Dritter geschützt sind!"
+msgstr ""
+"Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte "
+"geschützten Marken- und Warenzeichen unterliegen uneingeschränkt den "
+"Bestimmungen des jeweils gültigen Kennzeichenrechts und den Besitzrechten "
+"der jeweiligen eingetragenen Eigentümer. Allein aufgrund der bloßen Nennung "
+"ist nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte "
+"Dritter geschützt sind!"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:88
+msgid ""
+"Eine Vervielfältigung oder Verwendung der vom Autor selbst erstellten "
+"Grafiken, Tondokumenten, Videosequenzen und Texten in anderen elektronischen "
+"oder gedruckten Publikationen ist gestattet. Die Änderung und "
+"Veröffentlichung der oben genannten Dateien ist ohne ausdrückliche "
+"Zustimmung des Autors nicht gestattet."
+msgstr ""
+"Eine Vervielfältigung oder Verwendung der vom Autor selbst erstellten "
+"Grafiken, Tondokumenten, Videosequenzen und Texten in anderen elektronischen "
+"oder gedruckten Publikationen ist gestattet. Die Änderung und "
+"Veröffentlichung der oben genannten Dateien ist ohne ausdrückliche "
+"Zustimmung des Autors nicht gestattet."
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:92
+msgid "4. Rechtswirksamkeit dieses Haftungsausschlusses"
+msgstr "4. Rechtswirksamkeit dieses Haftungsausschlusses"
+
+#: collecting_society_portal_imp/templates/page/imprint.pt:94
+msgid ""
+"Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, "
+"von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne "
+"Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht mehr oder "
+"nicht vollständig entsprechen sollten, bleiben die übrigen Teile des "
+"Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt."
+msgstr ""
+"Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, "
+"von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne "
+"Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht mehr oder "
+"nicht vollständig entsprechen sollten, bleiben die übrigen Teile des "
+"Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt."
+
+#: collecting_society_portal_imp/templates/utilisation_imp/musicfan_list.pt:17
+#: collecting_society_portal_imp/templates/utilisation_imp/musician_list.pt:17
+msgid "Utilisations"
+msgstr "Utilizaciones"
+
+#: collecting_society_portal_imp/templates/utilisation_imp/musicfan_list.pt:23
+#: collecting_society_portal_imp/templates/utilisation_imp/musician_list.pt:23
+msgid "Artist"
+msgstr "Artista"
+
+#: collecting_society_portal_imp/templates/utilisation_imp/musicfan_list.pt:24
+#: collecting_society_portal_imp/templates/utilisation_imp/musician_list.pt:24
+msgid "Creation"
+msgstr "Obra"
+
+#: collecting_society_portal_imp/templates/utilisation_imp/musicfan_list.pt:25
+#: collecting_society_portal_imp/templates/utilisation_imp/musician_list.pt:25
+msgid "Release"
+msgstr "Fecha de publicación"
+
+# Time? Duration of a song? Or Time like 2pm?
+# >>>TM: More date & time. Along with "Artist", "Creation", and "Release", it's part of the list of "Utilisations", means the tracks a musicfan has listened to.
+#: collecting_society_portal_imp/templates/utilisation_imp/musicfan_list.pt:26
+#: collecting_society_portal_imp/templates/utilisation_imp/musician_list.pt:26
+msgid "Time"
+msgstr "Tiempo"
+
+#: collecting_society_portal_imp/templates/widgets/plugins.pt:6
+msgid "Download plugin for"
+msgstr "Descargar Plugin para"
+
+#: collecting_society_portal_imp/templates/widgets/pocket.pt:6
+msgid "Balance"
+msgstr "Saldo"
+
+#: collecting_society_portal_imp/templates/widgets/pocket.pt:9
+msgid "Budget"
+msgstr "Presupuesto"
+
+#~ msgid ""
+#~ "register yourself and install the <dynamic element> plugin into your "
+#~ "music player"
+#~ msgstr ""
+#~ "Registriere Dich und installiere das <dynamic element> plugin in Deinem "
+#~ "Musik-Player"

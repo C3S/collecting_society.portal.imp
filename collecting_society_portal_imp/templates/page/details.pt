@@ -57,10 +57,15 @@
     </p>
 
     <p>
-       <div align="center" class="embed-responsive embed-responsive-16by9">
-            <video width="95%" preload controls class="embed-responsive-item">
-                <source src="https://archive.c3s.cc/aktuell/video/adore_screencast_en_02_HD_YT.webm" />
-                <source src="https://archive.c3s.cc/aktuell/video/adore_screencast_en_02_HD_YT.mp4" />
+       <div  tal:switch="request._LOCALE_" align="center" class="embed-responsive embed-responsive-16by9">
+            <video tal:case="'de'" width="95%" preload controls class="embed-responsive-item">
+                    <source src="https://files.c3s.cc/adore_screencast_de_02_HD.webm" />
+                    <source src="https://files.c3s.cc/adore_screencast_de_02_HD.mp4" />
+                <span i18n:translate="">Your browser does not support the video tag</span>.
+            </video>
+            <video tal:case="default" width="95%" preload controls class="embed-responsive-item">
+                    <source src="https://archive.c3s.cc/aktuell/video/adore_screencast_en_02_HD_YT.webm" />
+                    <source src="https://archive.c3s.cc/aktuell/video/adore_screencast_en_02_HD_YT.mp4" />
                 <span i18n:translate="">Your browser does not support the video tag</span>.
             </video>
         </div>
