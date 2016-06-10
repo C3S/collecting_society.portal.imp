@@ -86,6 +86,10 @@ def web_registry(config):
     @FrontendResource.extend_registry
     def frontend(self):
         reg = self.dict()
+        # meta
+        reg['meta']['title'] = _(u'adore my music')
+        reg['meta']['keywords'] = _(u'adore,music')
+        reg['meta']['description'] = _(u'adore my music')
         # css
         reg['static']['css'] = [
             self.request.static_path(
