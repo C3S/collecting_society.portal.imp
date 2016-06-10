@@ -1,3 +1,5 @@
+# coding=utf-8
+
 # For copyright and license terms, see COPYRIGHT.rst (top level of repository)
 # Repository: https://github.com/C3S/collecting_society.portal.imp
 
@@ -87,9 +89,34 @@ def web_registry(config):
     def frontend(self):
         reg = self.dict()
         # meta
-        reg['meta']['title'] = _(u'adore my music')
-        reg['meta']['keywords'] = _(u'adore,music')
-        reg['meta']['description'] = _(u'adore my music')
+        reg['meta'] = {
+            'title': _(u'adore my music'),
+            'keywords': _(u'adore,music'),
+            'description': _(u'adore my music'),
+            'languages': [
+                {
+                    'id': 'en',
+                    'name': _(u'english'),
+                    'icon': self.request.static_path(
+                        'collecting_society_portal:static/img/en.png'
+                    )
+                },
+                {
+                    'id': 'de',
+                    'name': _(u'deutsch'),
+                    'icon': self.request.static_path(
+                        'collecting_society_portal:static/img/de.png'
+                    )
+                },
+                {
+                    'id': 'es',
+                    'name': _(u'español'),
+                    'icon': self.request.static_path(
+                        'collecting_society_portal:static/img/es.gif'
+                    )
+                }
+            ]
+        }
         # css
         reg['static']['css'] = [
             self.request.static_path(
@@ -100,8 +127,8 @@ def web_registry(config):
         reg['static']['logo'] = self.request.static_path(
             'collecting_society_portal_imp:static/img/logo-adore.png'
         )
-        # menue page
-        reg['menues']['page'] = [
+        # top menue
+        reg['menues']['top'] = [
             {
                 'name': _(u'overview'),
                 'page': 'overview'
@@ -138,7 +165,7 @@ def web_registry(config):
         reg['static']['logo'] = self.request.static_path(
             'collecting_society_portal_imp:static/img/logo-adore.png'
         )
-        # menue roles
+        # main menue
         reg['menues']['roles'] = [
             {
                 'name': _(u'Musicfan'),
@@ -155,8 +182,8 @@ def web_registry(config):
                 )
             }
         ]
-        # menue portal
-        reg['menues']['portal'] = [
+        # top menue
+        reg['menues']['top'] = [
             {
                 'name': _(u'News'),
                 'url': self.request.resource_path(
