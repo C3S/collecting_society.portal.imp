@@ -1,14 +1,13 @@
-<!-- For copyright / license terms, see COPYRIGHT.rst (top level of repository)
-     Repository: https://github.com/C3S/collecting_society -->
-
+<!--! For copyright / license terms, see COPYRIGHT.rst (top level of repository)
+      Repository: https://github.com/C3S/collecting_society.portal.imp -->
 <tal:block metal:use-macro="frontend" i18n:domain="collecting_society_portal_imp">
 
     <!-- top -->
     <tal:block metal:fill-slot="top">
 
-        <!-- menue page -->
+        <!-- top menue -->
         <tal:block metal:use-macro="m['navbar']"
-                   tal:define="name 'page'; style 'navbar-fixed-top'">
+                   tal:define="name 'top'; style 'navbar-fixed-top'">
             <tal:block metal:fill-slot="links">
                 <a tal:attributes="href '#'+menu.page">${menu.name}</a>
             </tal:block>
@@ -55,7 +54,7 @@
         </div>
 
         <!-- static sites -->
-        <tal:block tal:repeat="menu context.registry['menues']['page']|None">
+        <tal:block tal:repeat="menu context.registry['menues']['top']|None">
             <a name="${menu.page}"></a>
             <div metal:use-macro="load: ${menu.page}.pt"></div>
         </tal:block>
